@@ -14,6 +14,8 @@
   "license": "ISC",
   "dependencies": {
     "node-nlp": "^4.22.1",
+    "pino": "^6.13.3",
+    "pino-pretty": "^7.0.1",
     "venom-bot": "^3.0.17"
   },
   "devDependencies": {
