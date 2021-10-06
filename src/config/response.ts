@@ -1,15 +1,19 @@
 interface contextType {
   user: String,
   number: String,
+  ifood_link: String
 }
 const contextType: contextType = {
-  user: "[nome-do-cliente]",
-  number: "[numbero-do-cliente]"
+  user: "nome-do-cliente",
+  number: "numero-do-cliente",
+  ifood_link: "https://www.ifood.com.br/delivery/jaboatao-dos-guararapes-pe/yumei-temakeria-piedade/b77ae307-2102-4034-9bf8-137c38676086"
 }
 const responseObject = [
   // Saudação
   {
-    text: `Olá ${contextType.user}, eu sou o Yan seu atendente virtual. Caso queira fazer um pedido acesse o link: https://www.ifood.com.br/delivery/jaboatao-dos-guararapes-pe/yumei-temakeria-piedade/b77ae307-2102-4034-9bf8-137c38676086 \nVamos nessa?`,
+    text: `Olá ${contextType.user} eu sou o Yan seu atendente virtual.
+    Caso queira fazer um pedido acesse o link: ${contextType.ifood_link}
+    Vamos nessa?`,
     intent: "saudacao",
   },
   {
@@ -50,7 +54,7 @@ const responseObject = [
   },
   // Menu
   {
-    text: "Se houver dúvidas sobre o pedido fala com a gente diretamente pelo chat do Ifood: ifood ifood.com.br/delivery/jaboatao-dos-guararapes-pe/yumei-temakeria-piedade/b77ae307-2102-4034-9bf8-137c38676086!.",
+    text: `Dúvidas sobre o pedido? Fala com a gente diretamente pelo chat do Ifood! ${contextType.ifood_link}.`,
     intent: "menu",
   },
 

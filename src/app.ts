@@ -37,7 +37,8 @@ const Main = async () => {
                 await client.sendText(message.from, response.answer);
                 break;
               default:
-                await client.sendText(message.from, response.answer);
+                const formatedResponse = response.answer.replace("nome-do-cliente", message.sender.shortName)
+                await client.sendText(message.from, formatedResponse);
                 break;
             }
           } catch (error) {
