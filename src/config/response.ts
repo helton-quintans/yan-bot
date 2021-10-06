@@ -1,11 +1,23 @@
+interface contextType {
+  user: String,
+  number: String,
+  ifood_link: String
+}
+const contextType: contextType = {
+  user: "nome-do-cliente",
+  number: "numero-do-cliente",
+  ifood_link: "https://www.ifood.com.br/delivery/jaboatao-dos-guararapes-pe/yumei-temakeria-piedade/b77ae307-2102-4034-9bf8-137c38676086"
+}
 const responseObject = [
   // Saudação
   {
-    text: "Olá, eu sou uma atendente virtual do Yanak Sushi Digital Influencer master e blaster nesse carai e estou aqui para te ajudar com seu pedido.\nVamos nessa?",
+    text: `Olá ${contextType.user} eu sou o Yan seu atendente virtual.
+    Caso queira fazer um pedido acesse o link: ${contextType.ifood_link}
+    Vamos nessa?`,
     intent: "saudacao",
   },
   {
-    text: "Olá, sou um Yan, assistente virtual do Yanak Sushi. Adoro tirar dúvidas, qual é a sua?",
+    text: `E ai ${contextType.user} `,
     intent: "saudacao",
   },
 
@@ -40,9 +52,14 @@ const responseObject = [
     text: "Aceitamos todos os cartões. Pagamento na entrega!",
     intent: "pagamento",
   },
+  // Menu
+  {
+    text: `Dúvidas sobre o pedido? Fala com a gente diretamente pelo chat do Ifood! ${contextType.ifood_link}.`,
+    intent: "menu",
+  },
 
   // Finalização
-  { text: "Ok, estamos finalizando seu pedido...", intent: "fim_pedido" },
+  // { text: "Ok, estamos finalizando seu pedido...", intent: "fim_pedido" },
 ];
 
 export default responseObject

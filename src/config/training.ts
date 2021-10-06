@@ -11,16 +11,16 @@ const trainingObject = [
   { text: "boa noite", intent: "saudacao" },
   
   // Bebidas
-  { text: "coca-cola", intent: "bebida_refri" },
-  { text: "guarana", intent: "bebida_refri" },
-  { text: "agua tonica", intent: "bebida_refri" },
-  { text: "agua com gas", intent: "bebida_refri" },
-  { text: "agua com gas limoneto", intent: "bebida_h2o" },
-  { text: "agua com gas limao", intent: "bebida_h2o" },
+  // { text: "coca-cola", intent: "bebida_refri" },
+  // { text: "guarana", intent: "bebida_refri" },
+  // { text: "agua tonica", intent: "bebida_refri" },
+  // { text: "agua com gas", intent: "bebida_refri" },
+  // { text: "agua com gas limoneto", intent: "bebida_h2o" },
+  // { text: "agua com gas limao", intent: "bebida_h2o" },
 
   // Tamanho bebida
-  { text: "1 litro", intent: "bebida_tamanho" },
-  { text: "lata", intent: "bebida_tamanho" },
+  // { text: "1 litro", intent: "bebida_tamanho" },
+  // { text: "lata", intent: "bebida_tamanho" },
 
   // localicação
   { text: "onde fica localizada", intent: "localizacao" },
@@ -49,6 +49,7 @@ const trainingObject = [
   { text: "alelo", intent: "pagamento" },
   { text: "master", intent: "pagamento" },
   { text: "vale refeicao", intent: "pagamento" },
+
   // Menu
   { text: "menu", intent: "menu" },
   { text: "manda", intent: "menu" },
@@ -57,10 +58,10 @@ const trainingObject = [
   { text: "o cardapio", intent: "menu" },
   { text: "vamos", intent: "menu" },
 
-  // Finalização pedido
-  { text: "quanto fica", intent: "fim_pedido" },
-  { text: "finaliza", intent: "fim_pedido" },
-  { text: "conta", intent: "fim_pedido" },
-  { text: "fecha", intent: "fim_pedido" },
+  // // Finalização pedido
+  // { text: "quanto fica", intent: "fim_pedido" },
+  // { text: "finaliza", intent: "fim_pedido" },
+  // { text: "conta", intent: "fim_pedido" },
+  // { text: "fecha", intent: "fim_pedido" },
 ];
 export default trainingObject;
