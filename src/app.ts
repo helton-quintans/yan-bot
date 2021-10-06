@@ -1,7 +1,7 @@
 // Supports ES6
 import { create, Whatsapp } from "venom-bot";
 import manager from "./utils/manager";
-const { logger } = require("./config/logger");
+// const { logger } = require("./config/logger");
 
 const Main = async () => {
   const nlpManager = manager.config();
@@ -14,9 +14,9 @@ const Main = async () => {
         if (message.isGroupMsg === false) {
           try {
             const response = await nlpManager.process("pt", message.body);
-            console.log("[intent]", response.intent);
-            console.log("[score]", response.intent);
-            console.log("[type]", response.type);
+            // console.log("[intent]", response.intent);
+            // console.log("[score]", response.intent);
+            // console.log("[type]", response.type);
             switch (response.intent) {
               case "None":
                 await client.sendText(
