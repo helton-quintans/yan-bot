@@ -18,23 +18,28 @@ const Main = async () => {
             // console.log("[score]", response.intent);
             // console.log("[type]", response.type);
             switch (response.intent) {
-              case "None":
-                await client.sendText(
-                  message.from,
-                  "Ahhh :( Desculpa não entendi sua dúvida"
-                );
-                break;
+              //case "None":
+              // await client.sendText(
+              //   message.from,
+              //   "Ahhh :( Desculpa, não entendi o que você quis dizer."
+              // );
+              //  break;
+              //case "saudacao":
+                //await client.sendImage();
+                //break;
               case "menu":
                 await client.sendText(message.from, response.answer);
                 break;
+              //case "promocao":
+                //await client.sendImage(`+5581996591072@c.br`,);
+                //break;
               case "localizacao":
                 await client.sendLocation(
                   message.from,
                   "-8.1824068",
                   "-34.9266635",
-                  "Delivery e Retirada!"
+                  "Yanak Sushi"
                 );
-                await client.sendText(message.from, response.answer);
                 break;
               default:
                 const formatedResponse = response.answer.replace("nome-do-cliente", message.sender.shortName)
@@ -52,5 +57,4 @@ const Main = async () => {
     });
 };
 
-// Função Principal sendo Executada
 Main();
