@@ -2,15 +2,18 @@
 
 import { create, Whatsapp } from "venom-bot";
 import manager from "./utils/manager";
+import { format, compareAsc } from "date-fns";
 import { logger } from "./config/logger";
 import axios from "axios";
 import sendImage from "./utils/sendImage";
 
-
 const Main = async () => {
   const nlpManager = manager.config();
+  logger.info("Configurando inteligencia artificial...")
   await nlpManager.train();
+  logger.info("Treinando...")
   nlpManager.save();
+  logger.info("Salvando...")
   create("BOT")
     .then(async (client) => {
       //Evento
@@ -58,13 +61,13 @@ const Main = async () => {
                 break;
             }
           } catch (error) {
-            console.error(error);
+            logger.error(error);
           }
         }
       });
     })
     .catch((erro) => {
-      console.error(erro);
+      logger.error(erro);
     });
 };
 
