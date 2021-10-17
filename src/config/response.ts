@@ -88,40 +88,6 @@ const responseObject = [
     intent: "pagamento",
   },
   
-  // Promoções:
-
-  //Promoção de terça:
-  {
-    text:`*Descrição da promoção de terça*` , 
-    intent: "promocao"
-  },
-  //Promoção de quarta:
-  {
-    text:`*Descrição da promoção de quarta*` , 
-    intent: "promocao"
-  },
-  //Promoção de quinta:
-  {
-    text:`*Descrição da promoção de quarta*` , 
-    intent: "promocao"
-  },
-  //Promoção de sexta:
-  {
-    text:`*Descrição da promoção de sexta*` , 
-    intent: "promocao"
-  },
-  //Promoção de sábado:
-  {
-    text:`*Descrição da promoção de sábado*` , 
-    intent: "promocao"
-  },
-  //Promoção de domingo:
-  {
-    text:`*Descrição da promoção de domingo*` , 
-    intent: "promocao"
-  },
-
-  
   // Promoção + #quero ser elite
   /*{ 
      text: `${contextType.user}, Todos os dias temos promoções em nosso menu e você as encontra nas sessões *"Destaques"* e *Promoções* em nosso cardápio:\n 

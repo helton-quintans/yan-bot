@@ -7139,23 +7139,6 @@
             "answer": "nome-do-cliente, se você comprar atráves do ifood:\n\n    Pode pagar pelos meios disponíveis no ifood. \n\n    Caso seu pedido tenha sido feito diretamente em nossa loja você pode pagar com:\n\n    💵 Dinheiro;\n \n    💳 Cartões de crédito e débito (Visa, Master, Elo); ou\n\n    📱 Pix para xx.xxx.xxx-xx - CNPJ (CNPJ)."
           }
         ],
-        "promocao": [
-          {
-            "answer": "*Descrição da promoção de terça*"
-          },
-          {
-            "answer": "*Descrição da promoção de quarta*"
-          },
-          {
-            "answer": "*Descrição da promoção de sexta*"
-          },
-          {
-            "answer": "*Descrição da promoção de sábado*"
-          },
-          {
-            "answer": "*Descrição da promoção de domingo*"
-          }
-        ],
         "undefined": [
           {
             "answer": "\n   *🛍 Retirada* na loja: 30min\n\n   🛵 *Entrega:* 50min\n\n   "

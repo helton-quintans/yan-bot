@@ -3,7 +3,9 @@
 import { create, Whatsapp } from "venom-bot";
 import manager from "./utils/manager";
 import { format, compareAsc } from "date-fns";
-const { logger } = require("./config/logger");
+import { logger } from "./config/logger";
+import axios from "axios";
+import sendImage from "./utils/sendImage";
 
 const Main = async () => {
   const nlpManager = manager.config();
@@ -23,12 +25,11 @@ const Main = async () => {
             // console.log("[score]", response.intent);
             // console.log("[type]", response.type);
             switch (response.intent) {
-              //case "None":
-              // await client.sendText(
-              //   message.from,
-              //   "Ahhh :( Desculpa, não entendi o que você quis dizer."
-              // );
-              //  break;
+              case "None":
+                const message_telegram = `${message.from}|${message.sender.pushname}`;
+                await axios.get(`
+                https://api.telegram.org/bot2023746859:AAHb-YKxJCVoUwgq2DTanKaehthEO5HNYng/sendMessage?text="${message_telegram}|${response.utterance}"&chat_id=-643980370`);
+                break;
               //case "saudacao":
               //await client.sendImage();
               //break;
@@ -39,64 +40,7 @@ const Main = async () => {
               //await client.sendImage(`+5581996591072@c.br`,);
               //break;
               case "promocao":
-                const today = format(new Date(), "EEE");
-                console.log(today);
-                try {
-                  switch (today) {
-                    case "Sat":
-                      await client.sendImage(
-                        message.from,
-                        "C:/Projetos/yan-bot/src/images/sat.png",
-                        "sat.png",
-                        "Promoção do sabaãaao caraaiooo, porra"
-                      );
-                      break;
-                    case "Sun":
-                      await client.sendImage(
-                        message.from,
-                        "C:/Projetos/yan-bot/src/images/sun.png",
-                        "Sun.png",
-                        "Promoção do domingãaao caraaiooo, porra"
-                      );
-                      break;
-                    case "Tue":
-                      await client.sendImage(
-                        message.from,
-                        "C:/Projetos/yan-bot/src/images/tue.png",
-                        "Teu.png",
-                        "Promoção do *teeerça* caraaiooo, porra"
-                      );
-                      break;
-                    case "Wed":
-                      await client.sendImage(
-                        message.from,
-                        "C:/Projetos/yan-bot/src/images/wed.png",
-                        "Wed.png",
-                        "Promoção do *Quaaarta* caraaiooo, porra"
-                      );
-                      break;
-                    case "Thu":
-                      await client.sendImage(
-                        message.from,
-                        "C:/Projetos/yan-bot/src/images/thu.png",
-                        "Thu.png",
-                        "Promoção do *Quiiiinta* caraaiooo, porra"
-                      );
-                      break;
-                    case "Fri":
-                      await client.sendImage(
-                        message.from,
-                        "C:/Projetos/yan-bot/src/images/sun.png",
-                        "Sun.png",
-                        "Promoção de *Seeexta* caraaiooo, porra"
-                      );
-                      break;
-                    default:
-                      break;
-                  }
-                } catch (error) {
-                  console.error(error);
-                }
+                await sendImage(client, message);
                 break;
               case "localizacao":
                 await client.sendLocation(
@@ -107,11 +51,13 @@ const Main = async () => {
                 );
                 break;
               default:
-                const formatedResponse = response.answer.replace(
-                  "nome-do-cliente",
-                  message.sender.shortName
-                );
-                await client.sendText(message.from, formatedResponse);
+                if (response.answer != undefined) {
+                  const formatedResponse = response.answer.replace(
+                    "nome-do-cliente",
+                    message.sender.shortName
+                  );
+                  await client.sendText(message.from, formatedResponse);
+                }
                 break;
             }
           } catch (error) {
@@ -126,3 +72,6 @@ const Main = async () => {
 };
 
 Main();
+
+
+

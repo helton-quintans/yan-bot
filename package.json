@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.23.0",
     "date-fns": "^2.25.0",
     "node-nlp": "^4.22.1",
     "pino": "^6.13.3",
