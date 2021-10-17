@@ -1,6 +1,8 @@
 // Supports ES6
+
 import { create, Whatsapp } from "venom-bot";
 import manager from "./utils/manager";
+import { format, compareAsc } from "date-fns";
 const { logger } = require("./config/logger");
 
 const Main = async () => {
@@ -28,14 +30,74 @@ const Main = async () => {
               // );
               //  break;
               //case "saudacao":
-                //await client.sendImage();
-                //break;
+              //await client.sendImage();
+              //break;
               case "menu":
                 await client.sendText(message.from, response.answer);
                 break;
               //case "promocao":
-                //await client.sendImage(`+5581996591072@c.br`,);
-                //break;
+              //await client.sendImage(`+5581996591072@c.br`,);
+              //break;
+              case "promocao":
+                const today = format(new Date(), "EEE");
+                console.log(today);
+                try {
+                  switch (today) {
+                    case "Sat":
+                      await client.sendImage(
+                        message.from,
+                        "C:/Projetos/yan-bot/src/images/sat.png",
+                        "sat.png",
+                        "Promoção do sabaãaao caraaiooo, porra"
+                      );
+                      break;
+                    case "Sun":
+                      await client.sendImage(
+                        message.from,
+                        "C:/Projetos/yan-bot/src/images/sun.png",
+                        "Sun.png",
+                        "Promoção do domingãaao caraaiooo, porra"
+                      );
+                      break;
+                    case "Tue":
+                      await client.sendImage(
+                        message.from,
+                        "C:/Projetos/yan-bot/src/images/tue.png",
+                        "Teu.png",
+                        "Promoção do *teeerça* caraaiooo, porra"
+                      );
+                      break;
+                    case "Wed":
+                      await client.sendImage(
+                        message.from,
+                        "C:/Projetos/yan-bot/src/images/wed.png",
+                        "Wed.png",
+                        "Promoção do *Quaaarta* caraaiooo, porra"
+                      );
+                      break;
+                    case "Thu":
+                      await client.sendImage(
+                        message.from,
+                        "C:/Projetos/yan-bot/src/images/thu.png",
+                        "Thu.png",
+                        "Promoção do *Quiiiinta* caraaiooo, porra"
+                      );
+                      break;
+                    case "Fri":
+                      await client.sendImage(
+                        message.from,
+                        "C:/Projetos/yan-bot/src/images/sun.png",
+                        "Sun.png",
+                        "Promoção de *Seeexta* caraaiooo, porra"
+                      );
+                      break;
+                    default:
+                      break;
+                  }
+                } catch (error) {
+                  console.error(error);
+                }
+                break;
               case "localizacao":
                 await client.sendLocation(
                   message.from,
@@ -45,7 +107,10 @@ const Main = async () => {
                 );
                 break;
               default:
-                const formatedResponse = response.answer.replace("nome-do-cliente", message.sender.shortName)
+                const formatedResponse = response.answer.replace(
+                  "nome-do-cliente",
+                  message.sender.shortName
+                );
                 await client.sendText(message.from, formatedResponse);
                 break;
             }

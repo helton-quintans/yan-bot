@@ -13,7 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/pino": "^6.3.11",
+    "date-fns": "^2.25.0",
     "node-nlp": "^4.22.1",
     "pino": "^6.13.3",
     "pino-pretty": "^7.0.1",
