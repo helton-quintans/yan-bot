@@ -5,5 +5,4 @@ const logger = pino({
     ignore: "pid,hostname",
   },
 });
-
-export {logger};
+module.exports = { logger };
