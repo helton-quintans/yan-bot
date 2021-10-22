@@ -14,12 +14,9 @@ const trainingObject = [
   
   // Menu
   { text: "menu", intent: "menu" },
-  { text: "manda", intent: "menu" },
-  { text: "me da", intent: "menu" },
   { text: "deixa eu ver", intent: "menu" },
-  { text: "o cardapio", intent: "menu" },
+  { text: "cardapio", intent: "menu" },
   { text: "cardápio", intent: "menu" },
-  { text: "posso ver o cardapio", intent: "menu" },
   { text: "temaki", intent: "menu" },
   { text: "sushi", intent: "menu" },
   { text: "uramaki", intent: "menu" },
@@ -159,7 +156,7 @@ const trainingObject = [
   { text: "hueheh", intent: "risada" },
   
   //Piada
-  { text: "#umapiada", intent: "piada" },
+  { text: "piada", intent: "piada" },
 
   // Mais uma piada
   { text: "#maisuma", intent: "mais_uma_piada" },

@@ -1,5 +1,3 @@
-// Supports ES6
-
 import { create, Whatsapp } from "venom-bot";
 import manager from "./utils/manager";
 import { format, compareAsc } from "date-fns";
@@ -7,13 +5,24 @@ import { logger } from "./config/logger";
 import axios from "axios";
 import sendImage from "./utils/sendImage";
 
+
+
 const Main = async () => {
   const nlpManager = manager.config();
-  logger.info("Configurando inteligencia artificial...")
+  console.info("Configurando inteligencia artificial...")
   await nlpManager.train();
-  logger.info("Treinando...")
+  console.info("Treinando...")
   nlpManager.save();
-  logger.info("Salvando...")
+  console.info("Salvando...")
+  const departaments = ["rh","ti","comercial","posvenda"]
+
+  // Multiplos numeros de whatsapp conectados ao mesmo tempo com contextos de serviço automatico de atendimento difenrentes
+
+  // +55 81 9999xxxxx posvenda
+  // +55 81 9999xxxxx rh
+  // +55 81 9999xxxxx comercial
+  // +55 81 9999xxxxx ti
+  
   create("BOT")
     .then(async (client) => {
       //Evento
@@ -61,13 +70,13 @@ const Main = async () => {
                 break;
             }
           } catch (error) {
-            logger.error(error);
+            console.error(error);
           }
         }
       });
     })
     .catch((erro) => {
-      logger.error(erro);
+      console.error(erro);
     });
 };
 
