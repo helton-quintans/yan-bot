@@ -234,6 +234,8 @@ const trainingObject = [
   { text: "buceta", intent: "xingamento" },
   { text: "bct", intent: "xingamento" },
   { text: "pau", intent: "xingamento" },
+  { text: "pqp", intent: "xingamento" },
+
   
   
   //Agredecimento - FAZER RESPONSE
