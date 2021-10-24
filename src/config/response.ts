@@ -243,8 +243,6 @@ const responseObject = [
     *Sua opnião é importante para nós, se quiser fazer uma *sugestão* ou *crítica* fale no whatsApp da ouvidoria: 
     
     ${contextType.yanak_number_for_problems}
-
-
     `,
     intent: "xingamento",
   },
