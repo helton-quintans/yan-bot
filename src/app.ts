@@ -1,7 +1,6 @@
 import { create, Whatsapp } from "venom-bot";
 import manager from "./utils/manager";
 import { format, compareAsc } from "date-fns";
-import { logger } from "./config/logger";
 import axios from "axios";
 import sendImage from "./utils/sendImage";
 

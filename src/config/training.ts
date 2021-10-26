@@ -219,12 +219,12 @@ const trainingObject = [
   { text: "burra", intent: "xingamento" },
   { text: "arrombado", intent: "xingamento" },
   { text: "arrombada", intent: "xingamento" },
-  { text: "vai te foder", intent: "xingamento" },
-  { text: "vai te fuder", intent: "xingamento" },
-  { text: "te fode", intent: "xingamento" },
+  { text: "foder", intent: "xingamento" },
+  { text: "fuder", intent: "xingamento" },
+  { text: "fode", intent: "xingamento" },
   { text: "tnc", intent: "xingamento" },
   { text: "cu", intent: "xingamento" },
-  { text: "tomar no cu carai", intent: "xingamento" },
+  { text: "carai", intent: "xingamento" },
   { text: "merda", intent: "xingamento" },
   { text: "chato", intent: "xingamento" },
   { text: "chata", intent: "xingamento" },
@@ -233,8 +233,9 @@ const trainingObject = [
   { text: "babaca", intent: "xingamento" },
   { text: "buceta", intent: "xingamento" },
   { text: "bct", intent: "xingamento" },
-  { text: "pega no pau", intent: "xingamento" },
   { text: "pau", intent: "xingamento" },
+  { text: "pqp", intent: "xingamento" },
+
   
   
   //Agredecimento - FAZER RESPONSE

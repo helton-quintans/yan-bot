@@ -192,9 +192,9 @@ const responseObject = [
 
   //Identificação de risada + sugestão de piada.
   {
-    text: `🤖 Eu entendi que você está rindo, mas ainda não tenho intelecto suficiente para saber o motivo pois sou um robô bebê de 1 aninho 👶\n
+    text: `🤖 Eu entendi que você pode estar rindo, mas ainda não tenho intelecto suficiente para saber o motivo pois sou um robô bebê de 1 aninho 👶\n
     Mas posso te contar uma piada, se quiser que eu conte digita:\n
-    *PIADA* `,
+    *Altera* `,
     intent: "risada",
   },
 
@@ -238,9 +238,13 @@ const responseObject = [
 
   //xingamento
   {
-    text: `Posso estar errado, mas acho que você está xingando ou está chateado(a) com algo 😥,
-    S*ua opnião é importante para nós se quiser fazer uma *sugestão* ou *crítica* nós temos um nº específico para isso:
+    text: `Posso estar errado, mas acho que você está xingando ou está chateado(a) com algo 😥
+
+    *Sua opnião é importante para nós, se quiser fazer uma *sugestão* ou *crítica* fale no whatsApp da ouvidoria: 
     
+    ${contextType.yanak_number_for_problems}
+
+
     `,
     intent: "xingamento",
   },
