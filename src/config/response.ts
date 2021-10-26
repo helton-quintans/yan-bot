@@ -11,39 +11,38 @@ const contextType: contextType = {
   client_number: "numero-do-cliente",
   yanak_number_for_problems: "****Colocar número aqui****", //COLOCAR Nº PARA RESOLUÇÃO DE PROBLEMAS
   ifood_link: "https://www.ifood.com.br/delivery/jaboatao-dos-guararapes-pe/yumei-temakeria-piedade/b77ae307-2102-4034-9bf8-137c38676086",
-  chave_pix_CNPJ: `xx.xxx.xxx-xx - CNPJ`,
+  chave_pix_CNPJ: `43.917.705/0001-80`,
   chave_pix_tefelefone: `81 9959 - xxxx`
 }
 const responseObject = [
   // Saudação e Ajuda
   {
-    text: `Olá *${contextType.user}*, eu sou o *Yan* seu *atendente virtual*, e adoro tirar dúvidas. ◕‿◕\n
-    Se quiser fazer um pedido acesse:\n
-    ${contextType.ifood_link} \n
+    text: `Olá *${contextType.user}*, eu sou o *Yan* seu *atendente virtual*, e adoro tirar dúvidas. ◕‿◕
+    Para pedir acesse:
+    ${contextType.ifood_link} 
      
-    🤖 *Veja algumas coisas que pode me pedir:*\n
-    🍣 *Cardápio*\n
-    (Faça seu pedido)\n
-    🕒 *Horário*\n
-    (Dias e horários de atendimento)\n
-    💳 *Pagamento*\n
-    (Formas de pagamento)\n
-    🎆 Promoção\n
-    (Exibe a promoção do dia)\n
-    ⏱ *Tempo*\n
-    (Tempo de entrega e retirada)\n
-    👤 *Atendente*\n
+    🤖 *Veja algumas coisas que pode me pedir:*
+
+    🍣 *CARDÁPIO*
+    (Faça seu pedido)
+    🕒 *HORARIO*
+    (Dias e horários de atendimento)
+    💳 *PAGAMENTO*
+    (Formas de pagamento)
+    🔥 *PROMOÇÃO*
+    (Exibe a promoção do dia)
+    ⏱ *TEMPO*
+    (Tempo de entrega e retirada)
+    👤 *ATENDENTE*
     (Falar com atendente)
-    📍 *Bairros*\n
-    (Bairros que entregamos)\n
-    🛍 *Retirada*\n
+    📍 *BAIRROS*
+    (Bairros que entregamos)
+    🛍 *RETIRADA*
     (Retire na loja)
-    ✖ *Problema* \n
-    (Erro ou problema com o pedido)\n
-    *Status do pedido*
+    ✖ *PROBLEMA*
+    (Erro ou problema com o pedido)
+    ❕ *STATUS*
     (Meu Pedido)
-    *Ajuda*\n
-    (Solicitar ajuda)
     `,
     
     intent: "saudacao_ajuda",
@@ -51,14 +50,20 @@ const responseObject = [
   
   // Cardápio
   {
-    text: `Para acessar nosso cardápio e fazer seu pedido, *clique no link*:
-    ${contextType.ifood_link} \n
-    Lá tem 100% dos nosso produtos com descrição para você não ficar com dúvidas.\n
-    *Bom apetite e uma excelente experiência!* 🍣🥢\n
-    *Status do pedido* \n
+    text: `*CARDÁPIO*:
+    (click no link)
+    ${contextType.ifood_link}
+
+    Nele contém a descrição de 100% dos nosso produtos disponívei
+
+    *Bom apetite* 
+    e uma *excelente experiência!* 🍣🥢
+
+    *Status do pedido* 
     (Dicas)
-    A) *Ifood*: Você tem o status do pedido em tempo real e pode se comunicar com a gente também através do chat do próprio aplicativo; \n
-    B) *Loja*: Pedindo diretamento na loja (retirada) você pode nos ligar neste número que um de nossos atendentes rastreia o seu pedido.\n
+
+    A) *Ifood*: Você tem o status do pedido em tempo real e pode se comunicar com a gente também através do chat do próprio aplicativo; e
+    B) *Loja*: Pedindo para retirada o staus é verificado por um atendente humano, para ser atendido nos ligue neste número.
     `,
     intent: "menu",
   },
@@ -71,20 +76,22 @@ const responseObject = [
   
   // Horario Funcionamento
   { 
-    text: `Funcionamos de: \n 
-    *Terça* a *Domingo* - *17:30h* às *23h* \n
-    🛵 Delivery e 🛍 Take away (retirada)`, 
+    text: `🛵 Delivery e 🛍 Take away (retirada): 
+    *TERÇA* a *DOMINGO* - *17:30h* às *23h*
+    `, 
     intent: "funcionamento" 
   },
   
   // Pagamento
   {
-    text: `${contextType.user}, se você comprar atráves do ifood:\n
-    Pode pagar pelos meios disponíveis no ifood. \n
-    Caso seu pedido tenha sido feito diretamente em nossa loja você pode pagar com:\n
-    💵 Dinheiro;\n 
-    💳 Cartões de crédito e débito (Visa, Master, Elo); ou\n
-    📱 Pix para ${contextType.chave_pix_CNPJ} (CNPJ).`,
+    text: `*${contextType.user}*, se você comprar atráves do ifood:
+    Pode pagar pelos meios disponíveis no ifood.
+
+    Caso seu pedido tenha sido feito diretamente em nossa loja você pode pagar com:
+    💵 *Dinheiro*;
+    💳 *Cartões de crédito e débito* (Visa, Master, Elo); ou
+    📱 *Pix* para: ${contextType.chave_pix_CNPJ} 
+    (CNPJ).`,
     intent: "pagamento",
   },
   
@@ -117,9 +124,9 @@ const responseObject = [
   {
    text: `
    *🛍 Retirada* na loja: 30min\n
-   🛵 *Entrega:* 50min\n
+   🛵 *Entrega:* entre 45min e 60min\n
    `,
-   inten: "tempo_de_entrega_e_retirada"
+   intent: "tempo_de_entrega_e_retirada"
   },
  
   // Atendente humano
@@ -136,21 +143,30 @@ const responseObject = [
 
   //Bairros de entrega
   {
-    text: `Entregamos em: \n 📍Pieadade;\n 📍Candeias;\n 📍Boa viagem;\n 📍Barra de Jangada; \n 📍Jardim piedade; \n 📍Prazeres; e \n 📍Cajueiro seco.`,
+    text: `🗺 *Entregamos em*: 
+    📍Pieadade; 
+    📍Candeias;
+    📍Boa viagem;
+    📍Barra de Jangada; 
+    📍Jardim piedade; 
+    📍Prazeres; e  
+    📍Cajueiro seco.`,
     intent: "bairro",
   },
 
 
   // Retirada
   {
-    text: `Estamos localizados na R. São Sebastião, nº 898, Piedade. ${contextType.user}, nosso estabelicimento é uma dark kitchen, caso queria retirar seu pedido neste endereço tecle "03" no interfone que vamos te atender.`,
+    text: `🛍 *${contextType.user}*, retire em 📍 *R. São Sebastião, nº 898, Piedade*.
+
+    Nosso estabelicimento é uma dark kitchen, caso queria retirar seu pedido neste endereço tecle "03" no interfone que vamos te atender.`,
     intent: "retirada",
   },
 
   //Problema 
 
   {
-    text: `${contextType.user}, você será atendido por um humano, escolha uma das seguintes formas:\n
+    text: `*${contextType.user}*, para ser atendido por um humano escolha uma das seguintes formas:\n
     1) Ligando para este número.\n
     2) Ligando ou mandando uma mensagem (WhatsApp) para *${contextType.yanak_number_for_problems}*.
     `,
@@ -176,13 +192,13 @@ const responseObject = [
 
   //Identificação de risada + sugestão de piada.
   {
-    text: `Eu entendi que você está rindo, mas ainda não tenho intelecto suficiente para saber o motivo pois sou um robô bebê de 1 aninho 👶\n
+    text: `🤖 Eu entendi que você pode estar rindo, mas ainda não tenho intelecto suficiente para saber o motivo pois sou um robô bebê de 1 aninho 👶\n
     Mas posso te contar uma piada, se quiser que eu conte digita:\n
-    #umapiada `,
+    *Altera* `,
     intent: "risada",
   },
 
-  //Piada
+  //Piadas
   {
     text: `piu! 🐤 \n
     Se quiser mais uma digita:
@@ -222,14 +238,12 @@ const responseObject = [
 
   //xingamento
   {
-    text: `Posso estar errado, mas acho que você está xingando ou está chateado(a) com algo 😥,
-    se quiser fazer uma *sugestão* digita: \n
-    #s\n
-    Caso queira fazer uma reclamação:\n
-    #c\n
+    text: `Posso estar errado, mas acho que você está xingando ou está chateado(a) com algo 😥
 
-    Ao enviar sua sugestão ou reclamação, um de nossos colaboradores irá receber e tomar as devidas providências.\n
-    Se você estiver com urgência por uma resposta te indico nos ligar. `,
+    *Sua opnião é importante para nós, se quiser fazer uma *sugestão* ou *crítica* fale no whatsApp da ouvidoria: 
+    
+    ${contextType.yanak_number_for_problems}
+    `,
     intent: "xingamento",
   },
 

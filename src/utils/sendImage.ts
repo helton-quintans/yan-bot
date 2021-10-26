@@ -1,6 +1,5 @@
 import { format, compareAsc } from "date-fns";
 import { Whatsapp } from "venom-bot";
-import { logger } from "../config/logger";
 
 export default async function sendImage(client: Whatsapp, message: any) {
   try {
@@ -55,10 +54,10 @@ export default async function sendImage(client: Whatsapp, message: any) {
         );
         break;
       default:
-        logger.info("Erro na lib de datas");
+        console.info("Erro na lib de datas");
         break;
     }
   } catch (error) {
-    logger.error(error);
+    console.error(error);
   }
 }
