@@ -1,52 +1,92 @@
-import { create, Whatsapp } from "venom-bot";
+// import { create, Whatsapp } from "venom-bot";
+import { create, Whatsapp } from "@wppconnect-team/wppconnect";
 import manager from "./utils/manager";
-import { format, compareAsc } from "date-fns";
+// import { format, compareAsc } from "date-fns";
 import axios from "axios";
 import sendImage from "./utils/sendImage";
+// import { logger } from "./config/logger";
 
+const winston = require("winston");
 
+const logger = winston.createLogger({
+  level: "info",
+  format: winston.format.json(),
+  defaultMeta: { service: "user-service" },
+  transports: [
+    //
+    // - Write all logs with level `error` and below to `error.log`
+    // - Write all logs with level `info` and below to `combined.log`
+    //
+    new winston.transports.File({ filename: "error.log", level: "error" }),
+    new winston.transports.File({ filename: "combined.log" }),
+  ],
+});
 
 const Main = async () => {
   const nlpManager = manager.config();
-  console.info("Configurando inteligencia artificial...")
   await nlpManager.train();
-  console.info("Treinando...")
   nlpManager.save();
-  console.info("Salvando...")
-  const departaments = ["rh","ti","comercial","posvenda"]
-
-  // Multiplos numeros de whatsapp conectados ao mesmo tempo com contextos de serviço automatico de atendimento difenrentes
-
-  // +55 81 9999xxxxx posvenda
-  // +55 81 9999xxxxx rh
-  // +55 81 9999xxxxx comercial
-  // +55 81 9999xxxxx ti
-  
-  create("BOT")
+  create({
+    session: "bot", //Pass the name of the client you want to start the bot
+    logger: logger,
+    catchQR: (base64Qrimg, asciiQR, attempts, urlCode) => {
+      console.log("Number of attempts to read the qrcode: ", attempts);
+      console.log("Terminal qrcode: ", asciiQR);
+      console.log("base64 image string qrcode: ", base64Qrimg);
+      console.log("urlCode (data-ref): ", urlCode);
+    },
+    statusFind: (statusSession, session) => {
+      console.log("Status Session: ", statusSession); //return isLogged || notLogged || browserClose || qrReadSuccess || qrReadFail || autocloseCalled || desconnectedMobile || deleteToken
+      //Create session wss return "serverClose" case server for close
+      console.log("Session name: ", session);
+    },
+    headless: true, // Headless chrome
+    devtools: false, // Open devtools by default
+    useChrome: true, // If false will use Chromium instance
+    debug: false, // Opens a debug session
+    logQR: true, // Logs QR automatically in terminal
+    browserWS: "", // If u want to use browserWSEndpoint
+    browserArgs: [""], // Parameters to be added into the chrome browser instance
+    puppeteerOptions: {}, // Will be passed to puppeteer.launch
+    disableWelcome: false, // Option to disable the welcoming message which appears in the beginning
+    updatesLog: true, // Logs info updates automatically in terminal
+    // autoClose: 60000, // Automatically closes the wppconnect only when scanning the QR code (default 60 seconds, if you want to turn it off, assign 0 or false)
+    tokenStore: "file", // Define how work with tokens, that can be a custom interface
+    folderNameToken: "./tokens", //folder name when saving tokens
+    // BrowserSessionToken
+    // To receive the client's token use the function await clinet.getSessionTokenBrowser()
+    // sessionToken: {
+    //   WABrowserId: '"UnXjH....."',
+    //   WASecretBundle:
+    //     '{"key":"+i/nRgWJ....","encKey":"kGdMR5t....","macKey":"+i/nRgW...."}',
+    //   WAToken1: '"0i8...."',
+    //   WAToken2: '"1@lPpzwC...."',
+    // },
+  })
     .then(async (client) => {
-      //Evento
-      client.onMessage(async (message) => {
-        if (message.isGroupMsg === false) {
-          try {
+      try {
+        client.onMessage(async (message) => {
+          if (message.isGroupMsg === false) {
             const response = await nlpManager.process("pt", message.body);
-            // console.log("[intent]", response.intent);
-            // console.log("[score]", response.intent);
-            // console.log("[type]", response.type);
             switch (response.intent) {
               case "None":
-                const message_telegram = `${message.from}|${message.sender.pushname}`;
-                await axios.get(`
-                https://api.telegram.org/bot2023746859:AAHb-YKxJCVoUwgq2DTanKaehthEO5HNYng/sendMessage?text="${message_telegram}|${response.utterance}"&chat_id=-643980370`);
+                const message_telegram = `{numero:${message.from} | nome${message.sender.formattedName} |nome-resumido:${message.sender.shortName} | mensagem nao entendida: ${response.utterance}}`;
+                await client.sendText(
+                  message.from,
+                  `Eita ${message.sender.formattedName}! Ta ai algo que nao consegui entender, estou enviando o que você disse aos meus criadores pra te atender melhor numa proxima vez... `
+                );
+                await axios({
+                  method: "POST",
+                  url: "https://api.telegram.org/bot2023746859:AAHb-YKxJCVoUwgq2DTanKaehthEO5HNYng/sendMessage",
+                  data: {
+                    text: message_telegram,
+                    chat_id: -643980370,
+                  },
+                });
                 break;
-              //case "saudacao":
-              //await client.sendImage();
-              //break;
               case "menu":
                 await client.sendText(message.from, response.answer);
                 break;
-              //case "promocao":
-              //await client.sendImage(`+5581996591072@c.br`,);
-              //break;
               case "promocao":
                 await sendImage(client, message);
                 break;
@@ -68,11 +108,11 @@ const Main = async () => {
                 }
                 break;
             }
-          } catch (error) {
-            console.error(error);
           }
-        }
-      });
+        });
+      } catch (error: any) {
+        console.error(error);
+      }
     })
     .catch((erro) => {
       console.error(erro);
@@ -80,6 +120,3 @@ const Main = async () => {
 };
 
 Main();
-
-
-
