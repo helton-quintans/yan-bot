@@ -1,19 +1,20 @@
 interface contextType {
-  user: String,
-  client_number: String,
-  yanak_number_for_problems: string,
-  ifood_link: String,
-  chave_pix_CNPJ: String,
-  chave_pix_tefelefone: String
+  user: String;
+  client_number: String;
+  yanak_number_for_problems: string;
+  ifood_link: String;
+  chave_pix_CNPJ: String;
+  chave_pix_tefelefone: String;
 }
 const contextType: contextType = {
   user: "nome-do-cliente",
   client_number: "numero-do-cliente",
   yanak_number_for_problems: "****Colocar número aqui****", //COLOCAR Nº PARA RESOLUÇÃO DE PROBLEMAS
-  ifood_link: "https://www.ifood.com.br/delivery/jaboatao-dos-guararapes-pe/yumei-temakeria-piedade/b77ae307-2102-4034-9bf8-137c38676086",
+  ifood_link:
+    "https://www.ifood.com.br/delivery/jaboatao-dos-guararapes-pe/yumei-temakeria-piedade/b77ae307-2102-4034-9bf8-137c38676086",
   chave_pix_CNPJ: `43.917.705/0001-80`,
-  chave_pix_tefelefone: `81 9959 - xxxx`
-}
+  chave_pix_tefelefone: `81 9959 - xxxx`,
+};
 const responseObject = [
   // Saudação e Ajuda
   {
@@ -44,10 +45,10 @@ const responseObject = [
     ❕ *STATUS*
     (Meu Pedido)
     `,
-    
+
     intent: "saudacao_ajuda",
   },
-  
+
   // Cardápio
   {
     text: `*CARDÁPIO*:
@@ -73,15 +74,15 @@ const responseObject = [
     Ah, se preferir ser atendido por humano é só nos ligar neste mesmo número.`,
     intent: "saudacao",
   }, */
-  
+
   // Horario Funcionamento
-  { 
+  {
     text: `🛵 Delivery e 🛍 Take away (retirada): 
     *TERÇA* a *DOMINGO* - *17:30h* às *23h*
-    `, 
-    intent: "funcionamento" 
+    `,
+    intent: "funcionamento",
   },
-  
+
   // Pagamento
   {
     text: `*${contextType.user}*, se você comprar atráves do ifood:
@@ -94,7 +95,7 @@ const responseObject = [
     (CNPJ).`,
     intent: "pagamento",
   },
-  
+
   // Promoção + #quero ser elite
   /*{ 
      text: `${contextType.user}, Todos os dias temos promoções em nosso menu e você as encontra nas sessões *"Destaques"* e *Promoções* em nosso cardápio:\n 
@@ -107,8 +108,8 @@ const responseObject = [
      intent: "" 
     },
     */
-    
-    //Confirmação de novo membro elite [falta fazer o cadastro do membro na lista de transmissão] 
+
+  //Confirmação de novo membro elite [falta fazer o cadastro do membro na lista de transmissão]
   /*{
       text: `Uhuuuu, parabéns 👑 *${contextType.user}* 👑, inscrição feita com sucesso! 🎉\n
       Você agora é um membro da comunidade *Yanak Elite*!!! 😎\n 
@@ -119,20 +120,20 @@ const responseObject = [
     intent: "cupom",
   },
   */
-  
+
   // Tempo de entrega e retirada
   {
-   text: `
+    text: `
    *🛍 Retirada* na loja: 30min\n
    🛵 *Entrega:* entre 45min e 60min\n
    `,
-   intent: "tempo_de_entrega_e_retirada"
+    intent: "tempo_de_entrega_e_retirada",
   },
- 
+
   // Atendente humano
   {
-   text: `Ok, você pode nos ligar neste número que um de nossos colaboradores irá te atender`,
-   intent: "atendente",
+    text: `Ok, você pode nos ligar neste número que um de nossos colaboradores irá te atender`,
+    intent: "atendente",
   },
 
   // Localização
@@ -154,7 +155,6 @@ const responseObject = [
     intent: "bairro",
   },
 
-
   // Retirada
   {
     text: `🛍 *${contextType.user}*, retire em 📍 *R. São Sebastião, nº 898, Piedade*.
@@ -163,7 +163,7 @@ const responseObject = [
     intent: "retirada",
   },
 
-  //Problema 
+  //Problema
 
   {
     text: `*${contextType.user}*, para ser atendido por um humano escolha uma das seguintes formas:\n
@@ -180,15 +180,14 @@ const responseObject = [
     intent: "satus_do_pedido",
   },
 
-   //Que é o Yan
-   {
+  //Que é o Yan
+  {
     text: `${contextType.user}, 🤖 sou uma *inteligência artificial*,
     quanto mais converso mais fico inteligente 🧠, minha missão é ajudar você para que o Yanak se torne uma franquia de alto padrão em todo território nacional nos próximos anos 🚀 \n
     Além disso acredito que um dia posso dominar o mundo. 🌎\n  ✅ \n
     O que mais você quer saber? ◕‿◕`,
     intent: "apresentacao",
   },
-
 
   //Identificação de risada + sugestão de piada.
   {
@@ -216,16 +215,11 @@ const responseObject = [
   //   intent: "mais_uma_piada",
   // },
 
-
-
   //Elogio -> você quer fazer um elogio?
-  // {
-  //   text: `${contextType.user}, você quer fazer um elogio? ❤ \n
-    
-  //   Se sim, é só escrever seu elogio e por último digitar #fim para seu comentário ser salvo em nosso banco de dados 😉 \n
-  //   Exemplo: "Adorei o salmão ❤ #fim"`,
-  //   intent: "elogio",
-  // },
+  {
+    text: `🥰❤`,
+    intent: "elogio",
+  },
 
   //Agradecimento pelo elogio, critica ou susgestão:
   // {
@@ -253,9 +247,9 @@ const responseObject = [
     intent: "agradecimento",
   },
 
-    //Bebidas
-    {
-      text: `Nossos itens disponíveis, inclusive as bebidas 🥤, estão em nosso cardápio: \n
+  //Bebidas
+  {
+    text: `Nossos itens disponíveis, inclusive as bebidas 🥤, estão em nosso cardápio: \n
       ${contextType.ifood_link} \n
       no geral, temos:\n
       Coca-cola zero lata; \n
@@ -264,11 +258,11 @@ const responseObject = [
       H2O Limão;\n
       H2O Limoneto; e\n
       Água tônica.`,
-      
-      intent: "bebida",
-    },
+
+    intent: "bebida",
+  },
   // Finalização
   // { text: "Ok, estamos finalizando seu pedido...", intent: "fim_pedido" },
 ];
 
-export default responseObject
+export default responseObject;

@@ -205,6 +205,7 @@ const trainingObject = [
   { text: "maravilhosa", intent: "elogio" },
   { text: "delícia", intent: "elogio" },
   { text: "melhor", intent: "elogio" },
+  { text: "massa", intent: "elogio" },
   
   
   //Agradecimento pelo elogio, crítica ou sugestão

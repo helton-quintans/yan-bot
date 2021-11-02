@@ -70,9 +70,19 @@ const Main = async () => {
             const response = await nlpManager.process("pt", message.body);
             switch (response.intent) {
               case "None":
-                const message_telegram = `${message.from}|${message.sender.pushname}`;
-                await axios.get(`
-                https://api.telegram.org/bot2023746859:AAHb-YKxJCVoUwgq2DTanKaehthEO5HNYng/sendMessage?text="${message_telegram}|${response.utterance}"&chat_id=-643980370`);
+                const message_telegram = `{numero:${message.from} | nome${message.sender.formattedName} |nome-resumido:${message.sender.shortName} | mensagem nao entendida: ${response.utterance}}`;
+                await client.sendText(
+                  message.from,
+                  `Eita ${message.sender.formattedName}! Ta ai algo que nao consegui entender, estou enviando o que você disse aos meus criadores pra te atender melhor numa proxima vez... `
+                );
+                await axios({
+                  method: "POST",
+                  url: "https://api.telegram.org/bot2023746859:AAHb-YKxJCVoUwgq2DTanKaehthEO5HNYng/sendMessage",
+                  data: {
+                    text: message_telegram,
+                    chat_id: -643980370,
+                  },
+                });
                 break;
               case "menu":
                 await client.sendText(message.from, response.answer);
