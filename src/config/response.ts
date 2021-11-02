@@ -198,43 +198,43 @@ const responseObject = [
     intent: "risada",
   },
 
-  //Piadas
-  {
-    text: `piu! 🐤 \n
-    Se quiser mais uma digita:
-    #maisuma`,
-    intent: "piada",
-  },
+  // //Piadas
+  // {
+  //   text: `piu! 🐤 \n
+  //   Se quiser mais uma digita:
+  //   #maisuma`,
+  //   intent: "piada",
+  // },
 
-  //Mais uma piada:
-  {
-    text: `Piu, , piu! 🐤 kkk \n
-    Não acredito que tu caiu nessa, ${contextType.user}. 😄 \n
-    😢 Eu queria ser um humano agora para poder apreciar um sushizinho, acredito que seja uma experiência única \n Muita gente tem me dito que o nosso sushi é mais gostoso que chocolate, mais viciante que açúcar e que a entrega é mais rápida que Usain Bolt ⚡?\n
-    Mas você pode, né? Se quer  que eu te mande o menu digita:\n
-    menu`,
-    intent: "mais_uma_piada",
-  },
+  // //Mais uma piada:
+  // {
+  //   text: `Piu, , piu! 🐤 kkk \n
+  //   Não acredito que tu caiu nessa, ${contextType.user}. 😄 \n
+  //   😢 Eu queria ser um humano agora para poder apreciar um sushizinho, acredito que seja uma experiência única \n Muita gente tem me dito que o nosso sushi é mais gostoso que chocolate, mais viciante que açúcar e que a entrega é mais rápida que Usain Bolt ⚡?\n
+  //   Mas você pode, né? Se quer  que eu te mande o menu digita:\n
+  //   menu`,
+  //   intent: "mais_uma_piada",
+  // },
 
 
 
   //Elogio -> você quer fazer um elogio?
-  {
-    text: `${contextType.user}, você quer fazer um elogio? ❤ \n
+  // {
+  //   text: `${contextType.user}, você quer fazer um elogio? ❤ \n
     
-    Se sim, é só escrever seu elogio e por último digitar #fim para seu comentário ser salvo em nosso banco de dados 😉 \n
-    Exemplo: "Adorei o salmão ❤ #fim"`,
-    intent: "elogio",
-  },
+  //   Se sim, é só escrever seu elogio e por último digitar #fim para seu comentário ser salvo em nosso banco de dados 😉 \n
+  //   Exemplo: "Adorei o salmão ❤ #fim"`,
+  //   intent: "elogio",
+  // },
 
   //Agradecimento pelo elogio, critica ou susgestão:
-  {
-    text: `${contextType.user}, Seu comentário foi registrado com sucesso ✅ \n
-    Sua opnião é muito importante para guiar nossas operações para podermos sevir cada vez mais e melhor.\n
-    Com amor: Toda a equipe do Yanak ❤
-    `,
-    intent: "agradecimento_pelo_elogio_critica_ou_sugestao",
-  },
+  // {
+  //   text: `${contextType.user}, Seu comentário foi registrado com sucesso ✅ \n
+  //   Sua opnião é muito importante para guiar nossas operações para podermos sevir cada vez mais e melhor.\n
+  //   Com amor: Toda a equipe do Yanak ❤
+  //   `,
+  //   intent: "agradecimento_pelo_elogio_critica_ou_sugestao",
+  // },
 
   //xingamento
   {
