@@ -122,7 +122,7 @@ const trainingObject = [
   { text: "status", intent: "satus_do_pedido" },
   
   //Confirmação de novo membro elite [falta fazer o cadastro do membro na lista de transmissão] 
-  { text: "#quero", intent: "cupom" },
+  // { text: "#quero", intent: "cupom" },
   
   // Localicação
   { text: "onde", intent: "localizacao" },
@@ -132,34 +132,34 @@ const trainingObject = [
   { text: "localizacao", intent: "localizacao" },
 
   
-  //Identificação de risada + sugestão de piada.
-  { text: "haha", intent: "risada" },
-  { text: "hahaha", intent: "risada" },
-  { text: "hahahah", intent: "risada" },
-  { text: "hahahaha", intent: "risada" },
-  { text: "hahahahah", intent: "risada" },
-  { text: "hahahahaha", intent: "risada" },
-  { text: "hahahahahahahahahahahahha", intent: "risada" },
-  { text: "hahaahha", intent: "risada" },
-  { text: "kkk", intent: "risada" },
-  { text: "kkkkk", intent: "risada" },
-  { text: "kkkkkk", intent: "risada" },
-  { text: "kkkkkkk", intent: "risada" },
-  { text: "hkkkkkkkkkkk", intent: "risada" },
-  { text: "hkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk", intent: "risada" },
-  { text: "hahhehe", intent: "risada" },
-  { text: "hahhehe", intent: "risada" },
-  { text: "hihihi", intent: "risada" },
-  { text: "rs", intent: "risada" },
-  { text: "rsrsrs", intent: "risada" },
-  { text: "hueheheuehu", intent: "risada" },
-  { text: "hueheh", intent: "risada" },
+  // //Identificação de risada + sugestão de piada.
+  // { text: "haha", intent: "risada" },
+  // { text: "hahaha", intent: "risada" },
+  // { text: "hahahah", intent: "risada" },
+  // { text: "hahahaha", intent: "risada" },
+  // { text: "hahahahah", intent: "risada" },
+  // { text: "hahahahaha", intent: "risada" },
+  // { text: "hahahahahahahahahahahahha", intent: "risada" },
+  // { text: "hahaahha", intent: "risada" },
+  // { text: "kkk", intent: "risada" },
+  // { text: "kkkkk", intent: "risada" },
+  // { text: "kkkkkk", intent: "risada" },
+  // { text: "kkkkkkk", intent: "risada" },
+  // { text: "hkkkkkkkkkkk", intent: "risada" },
+  // { text: "hkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk", intent: "risada" },
+  // { text: "hahhehe", intent: "risada" },
+  // { text: "hahhehe", intent: "risada" },
+  // { text: "hihihi", intent: "risada" },
+  // { text: "rs", intent: "risada" },
+  // { text: "rsrsrs", intent: "risada" },
+  // { text: "hueheheuehu", intent: "risada" },
+  // { text: "hueheh", intent: "risada" },
   
   //Piada
-  { text: "piada", intent: "piada" },
+  // { text: "piada", intent: "piada" },
 
   // Mais uma piada
-  { text: "#maisuma", intent: "mais_uma_piada" },
+  // { text: "#maisuma", intent: "mais_uma_piada" },
   
   //Problema
   { text: "problema", intent: "problema_atendente_humano" },
@@ -205,10 +205,11 @@ const trainingObject = [
   { text: "maravilhosa", intent: "elogio" },
   { text: "delícia", intent: "elogio" },
   { text: "melhor", intent: "elogio" },
+  { text: "massa", intent: "elogio" },
   
   
   //Agradecimento pelo elogio, crítica ou sugestão
-  { text: "#fim", intent: "agradecimento_pelo_elogio_critica_ou_sugestao" },
+  // { text: "#fim", intent: "agradecimento_pelo_elogio_critica_ou_sugestao" },
   
   // Xingamento - 
   { text: "puto", intent: "xingamento" },
