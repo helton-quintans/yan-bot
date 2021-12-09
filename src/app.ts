@@ -60,10 +60,10 @@ const Main = async () => {
             const response = await nlpManager.process("pt", message.body);
             switch (response.intent) {
               case "None":
-                const message_telegram = `{numero:${message.from} | nome${message.sender.formattedName} |nome-resumido:${message.sender.shortName} | mensagem nao entendida: ${response.utterance}}`;
+                const message_telegram = `{numero:${message.from} | nome${message.sender.verifiedName} |nome-resumido:${message.sender.shortName} | mensagem nao entendida: ${response.utterance}}`;
                 await client.sendText(
                   message.from,
-                  `Eita ${message.sender.formattedName}! Ta ai algo que nao consegui entender, estou enviando o que você disse aos meus criadores pra te atender melhor numa proxima vez... `
+                  `Ta ai algo que nao consegui entender, estou enviando o que você disse aos meus criadores pra te atender melhor numa proxima vez... `
                 );
                 await axios({
                   method: "POST",
@@ -92,7 +92,7 @@ const Main = async () => {
                 if (response.answer != undefined) {
                   const formatedResponse = response.answer.replace(
                     "nome-do-cliente",
-                    message.sender.shortName
+                    message.sender.verifiedName
                   );
                   await client.sendText(message.from, formatedResponse);
                 }

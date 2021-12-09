@@ -4774,12 +4774,12 @@
     "pt": {
       "saudacao_ajuda": [
         {
-          "response": "Olá *nome-do-cliente*, eu sou o *Yan* seu *atendente virtual*, e adoro tirar dúvidas. ◕‿◕\n    Para pedir acesse:\n    https://www.ifood.com.br/delivery/jaboatao-dos-guararapes-pe/yumei-temakeria-piedade/b77ae307-2102-4034-9bf8-137c38676086 \n     \n    🤖 *Veja algumas coisas que pode me pedir:*\n\n    🍣 *CARDÁPIO*\n    (Faça seu pedido)\n    🕒 *HORARIO*\n    (Dias e horários de atendimento)\n    💳 *PAGAMENTO*\n    (Formas de pagamento)\n    🔥 *PROMOÇÃO*\n    (Exibe a promoção do dia)\n    ⏱ *TEMPO*\n    (Tempo de entrega e retirada)\n    👤 *ATENDENTE*\n    (Falar com atendente)\n    📍 *BAIRROS*\n    (Bairros que entregamos)\n    🛍 *RETIRADA*\n    (Retire na loja)\n    ✖ *PROBLEMA*\n    (Erro ou problema com o pedido)\n    ❕ *STATUS*\n    (Meu Pedido)\n    "
+          "response": "Olá *nome-do-cliente*, eu sou o *Yan* seu *atendente virtual*, e adoro tirar dúvidas. ◕‿◕\n    Para pedir acesse:\n    https://www.ifood.com.br/delivery/jaboatao-dos-guararapes-pe/yanak-sushi-piedade/96a2d480-f83c-4308-b2c4-94a27e694ddc \n     \n    🤖 *Veja algumas coisas que pode me pedir:*\n\n    🍣 *CARDÁPIO*\n    (Faça seu pedido)\n    🕒 *HORARIO*\n    (Dias e horários de atendimento)\n    💳 *PAGAMENTO*\n    (Formas de pagamento)\n    🔥 *PROMOÇÃO*\n    (Exibe a promoção do dia)\n    ⏱ *TEMPO*\n    (Tempo de entrega e retirada)\n    👤 *ATENDENTE*\n    (Falar com atendente)\n    📍 *BAIRROS*\n    (Bairros que entregamos)\n    🛍 *RETIRADA*\n    (Retire na loja)\n    ✖ *PROBLEMA*\n    (Erro ou problema com o pedido)\n    ❕ *STATUS*\n    (Meu Pedido)\n    "
         }
       ],
       "menu": [
         {
-          "response": "*CARDÁPIO*:\n    (click no link)\n    https://www.ifood.com.br/delivery/jaboatao-dos-guararapes-pe/yumei-temakeria-piedade/b77ae307-2102-4034-9bf8-137c38676086\n\n    Nele contém a descrição de 100% dos nosso produtos disponívei\n\n    *Bom apetite* \n    e uma *excelente experiência!* 🍣🥢\n\n    *Status do pedido* \n    (Dicas)\n\n    A) *Ifood*: Você tem o status do pedido em tempo real e pode se comunicar com a gente também através do chat do próprio aplicativo; e\n    B) *Loja*: Pedindo para retirada o staus é verificado por um atendente humano, para ser atendido nos ligue neste número.\n    "
+          "response": "*CARDÁPIO*:\n    (click no link)\n    https://www.ifood.com.br/delivery/jaboatao-dos-guararapes-pe/yanak-sushi-piedade/96a2d480-f83c-4308-b2c4-94a27e694ddc\n\n    Nele contém a descrição de 100% dos nosso produtos disponívei\n\n    *Bom apetite* \n    e uma *excelente experiência!* 🍣🥢\n\n    *Status do pedido* \n    (Dicas)\n\n    A) *Ifood*: Você tem o status do pedido em tempo real e pode se comunicar com a gente também através do chat do próprio aplicativo; e\n    B) *Loja*: Pedindo para retirada o staus é verificado por um atendente humano, para ser atendido nos ligue neste número.\n    "
         }
       ],
       "funcionamento": [
@@ -4809,17 +4809,17 @@
       ],
       "bairro": [
         {
-          "response": "🗺 *Entregamos em*: \n    📍Pieadade; \n    📍Candeias;\n    📍Boa viagem;\n    📍Barra de Jangada; \n    📍Jardim piedade; \n    📍Prazeres; e  \n    📍Cajueiro seco."
+          "response": "🗺 *Entregamos em*: \n    📍Pieadade; \n    📍Candeias;\n    📍Boa viagem;\n    📍Jardim piedade; \n    📍Imbiribeira;\n    📍Prazeres;\n    📍Cajueiro seco,\n    📍Barra de Jangada; \n    📍Ponte dos carvalhos; \n    📍Ipsep;\n    📍Ibura;\n    "
         }
       ],
       "retirada": [
         {
-          "response": "🛍 *nome-do-cliente*, retire em 📍 *R. São Sebastião, nº 898, Piedade*.\n\n    Nosso estabelicimento é uma dark kitchen, caso queria retirar seu pedido neste endereço tecle \"03\" no interfone que vamos te atender."
+          "response": "🛍 *nome-do-cliente*, retire em 📍 *R. São Sebastião, nº 898, Piedade*.\n\n    Nosso estabelicimento é uma *dark kitchen*, caso queria retirar seu pedido neste endereço tecle \"03\" no interfone que vamos te atender."
         }
       ],
       "problema_atendente_humano": [
         {
-          "response": "*nome-do-cliente*, para ser atendido por um humano escolha uma das seguintes formas:\n\n    1) Ligando para este número.\n\n    2) Ligando ou mandando uma mensagem (WhatsApp) para *****Colocar número aqui*****.\n    "
+          "response": "*nome-do-cliente*, para ser atendido por um humano escolha uma das seguintes formas:\n\n    1) Ligando para este número.\n\n    2) Ligando ou mandando uma mensagem (WhatsApp) para *81 996420167*.\n    "
         }
       ],
       "satus_do_pedido": [
@@ -4832,11 +4832,6 @@
           "response": "nome-do-cliente, 🤖 sou uma *inteligência artificial*,\n    quanto mais converso mais fico inteligente 🧠, minha missão é ajudar você para que o Yanak se torne uma franquia de alto padrão em todo território nacional nos próximos anos 🚀 \n\n    Além disso acredito que um dia posso dominar o mundo. 🌎\n  ✅ \n\n    O que mais você quer saber? ◕‿◕"
         }
       ],
-      "risada": [
-        {
-          "response": "🤖 Eu entendi que você pode estar rindo, mas ainda não tenho intelecto suficiente para saber o motivo pois sou um robô bebê de 1 aninho 👶\n\n    Mas posso te contar uma piada, se quiser que eu conte digita:\n\n    *Altera* "
-        }
-      ],
       "elogio": [
         {
           "response": "🥰❤"
@@ -4844,7 +4839,7 @@
       ],
       "xingamento": [
         {
-          "response": "Posso estar errado, mas acho que você está xingando ou está chateado(a) com algo 😥\n\n    *Sua opnião é importante para nós, se quiser fazer uma *sugestão* ou *crítica* fale no whatsApp da ouvidoria: \n    \n    ****Colocar número aqui****\n    "
+          "response": "Posso estar errado, mas acho que você está xingando ou está chateado(a) com algo 😥\n\n    *Sua opnião é importante para nós, se quiser fazer uma *sugestão* ou *crítica* fale no whatsApp da ouvidoria: \n    \n    81 996420167\n    "
         }
       ],
       "agradecimento": [
@@ -4854,7 +4849,7 @@
       ],
       "bebida": [
         {
-          "response": "Nossos itens disponíveis, inclusive as bebidas 🥤, estão em nosso cardápio: \n\n      https://www.ifood.com.br/delivery/jaboatao-dos-guararapes-pe/yumei-temakeria-piedade/b77ae307-2102-4034-9bf8-137c38676086 \n\n      no geral, temos:\n\n      Coca-cola zero lata; \n\n      Coca-cola (lata e 1L);\n      Antártica (lata e 1L);\n\n      H2O Limão;\n\n      H2O Limoneto; e\n\n      Água tônica."
+          "response": "Nossos itens disponíveis, inclusive as bebidas 🥤, estão em nosso cardápio: \n      https://www.ifood.com.br/delivery/jaboatao-dos-guararapes-pe/yanak-sushi-piedade/96a2d480-f83c-4308-b2c4-94a27e694ddc \n      no geral, temos:\n      Coca-cola zero lata; \n      Coca-cola (lata e 1L);\n      Antártica (lata e 1L);\n      Schwepps Citrus;\n      H2O Limão;\n      H2O Limoneto; e\n      Água tônica."
         }
       ]
     }
