@@ -9,7 +9,7 @@ interface contextType {
 const contextType: contextType = {
   user: "nome-do-cliente",
   client_number: "numero-do-cliente",
-  yanak_number_for_problems: "81 9 95555555", //COLOCAR Nº PARA RESOLUÇÃO DE PROBLEMAS
+  yanak_number_for_problems: "81 996420167",
   ifood_link:
     "https://www.ifood.com.br/delivery/jaboatao-dos-guararapes-pe/yanak-sushi-piedade/96a2d480-f83c-4308-b2c4-94a27e694ddc",
   chave_pix_CNPJ: `43.917.705/0001-80`,
