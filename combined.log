@@ -160,3 +160,215 @@
 {"level":"info","message":"WhatsApp WEB version: 2.2138.13","service":"user-service","session":"bot","type":"client"}
 {"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
 {"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"bot","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"code":"1@nENyMRcfjBvQiB9I6luS/vBM55rOv2pmt+izNYOY2udDaDN65hhRbJtDR0eA64Hx2YsTLNefXym++w==,P1+Yg/ndNFxm8p91wkYNYe7P4LY3QNHt69eY7XJFc1s=,V4oiJjqH0JlcIFfg9jzs8Q==","level":"info","message":"Waiting for QRCode Scan (Attempt 1)...:\n▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄\n█ ▄▄▄▄▄ █▀ ▀▄█▄▄▀▀▀  ██▄▄▀▄█▀▀▄ █▄ █▀▄█ ▄▄▄▄▄ █\n█ █   █ █▀▄▄ ▀ ▄▄ ▀ ██ ▀▀█ █▄▄█  █▄█ ▀█ █   █ █\n█ █▄▄▄█ █▀▀▄█▀▄▀██▄▄▄ ▄▄▄  █▀▀▀▄ ▄█▄▄▄█ █▄▄▄█ █\n█▄▄▄▄▄▄▄█▄▀▄▀ █ ▀ █ █ █▄█ ▀ █▄▀▄▀ █▄█▄█▄▄▄▄▄▄▄█\n█▄▄▄  ▀▄▄ ▀▄ ▀ ▀▄▄▀▄▀▄▄▄ ▄ ▄▀▀ ▀ █▄▄▄▀ █ ▀ █▄██\n█▄  ▄▄▄▄█▄ ▄ ▄▄█▀▀█▄ ▄ ▄▀▄▄▀█  ▀ ▀ ▄▄▄▀▀  ▄ ▄▀█\n█▀ █▀██▄▀▄█▄▀ ▄███▀▄█ █ █ ▄█ ▀▀ ▀█ █▄▀ ▄▄▀ ▀  █\n█▀ █▄▀▀▄▄▀ █▄ ▀▀ ▄█  ▄▄█▄ ▄ ▀█▀  ▀█  ▄█▄▀▀  ▀▀█\n███ █▀▄▄█   ▀▀▀▀▀▄▄ █ ██ ▄▄█▀▀█▀▀█▄█▀ ▀▄▀▀▀▄▄▀█\n█▄█▀▄█▄▄ ▄▄▀█▄▄▄█▄█ ▀▄██   ▄▄  █▄▀▀ ▄▄  ▀▀▄ ▄██\n██▄ █ ▄▄▄ ▀▀ █▄█▀▄▄▄▀ ▄▄▄  ▄ █▀  █▀█▀ ▄▄▄ ▀█▀▀█\n█ ██▀ █▄█  ▀█ █▄ ▀██▀ █▄█ ▄██▀▄ ▀ █▄▄ █▄█ ▀▀ ▀█\n█▄█ ▀ ▄▄  ▀▀▄  █▄▄▄▄█   ▄ ▀▄██▀▀▀████ ▄ ▄▄ ██▄█\n██▄█▄▄▀▄█▀▀▀▄ ▄ ▄▄  ▀█▀▀▀ ▄ ▄ ▄█ ▄▀█ ▀▄▀▀▀▀  ██\n█ ▄▀▄ █▄  ▀▄▀▀▄▀█▄▄ █▀▄▀▄ ▀█▀█▄ ▄▀██▀ ▄▀▄▄▄▄█▀█\n██   ▀█▄▄▀▀ ▄▄▀█ ▀▄▀█▄ ▄▄▀▀█  ▄▀▄▄▀▄▀█ █▀▄  ▀▀█\n█▀ █▀▀ ▄█ ▀█▀▄▀▀▄▄▄▄ ▀▀▀▄▀ ██▀▀ ▄▀▀▄▀▄▄████ ▀ █\n██▀▀▀ █▄▀▀██▀█ █▄▄▀ ▀█▀█▀▀█  ▄█▀██▄▄█▄▄█▀ █ ███\n█▄██▄▄█▄▄  ▀ ▀▄▀▄█▀▄█ ▄▄▄ ▀▄▀▀ ▀ ██▄▀ ▄▄▄  ██ █\n█ ▄▄▄▄▄ █▄███▄ ▄▄█▀▄  █▄█ ▀█▀  ▄█▄▄ █ █▄█   ▀██\n█ █   █ █   █ ▀▀▄█▄ ▀ ▄▄▄ ▀█ █  ▄▀█▄▄ ▄▄  ▄  ▄█\n█ █▄▄▄█ █  ▄ ▄▄▀▀▀▄▄ ▄  ▄▄▀█▀█▄▀ █▀ ▄▄ █▀▀▄ █▄█\n█▄▄▄▄▄▄▄█▄█▄▄▄▄██▄█▄▄█▄█▄▄█▄██▄▄▄██▄▄██▄▄███▄██\n","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2144.11","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2144.11","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Session Unpaired","service":"user-service","session":"bot","type":"session"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"bot","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2144.11","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"bot","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2144.11","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Closing the page","service":"user-service","session":"bot","type":"client"}
+{"level":"warn","message":"Phone not connected","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"bot","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2144.11","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"bot","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2144.11","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"warn","message":"Phone not connected","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"bot","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"code":"1@hHFdaRabGLwCgd2dlEFp1RSXQptsw24tu8h4OvSuJ/acuoHIG+Pg0EgS7fgk0y0Rvqn2ofAiWOsQMQ==,2b2WM6CBc2M05SZMzmqUAmVhqe3JCnprFsomKbUd8Vs=,9tnAZlmPoxh3rG9g16q/+A==","level":"info","message":"Waiting for QRCode Scan (Attempt 1)...:\n▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄\n█ ▄▄▄▄▄ █▀▄███ ▀ ▄ ▄ ▄▄▀█▄ ▄█▀▄ ▀▄██▀▄█ ▄▄▄▄▄ █\n█ █   █ █▄  ▀█▀▄  ▀█▄▄▀   ▄ ██ ██▄██ ▀█ █   █ █\n█ █▄▄▄█ █  █▀▀▀▀▄█▄█▀ ▄▄▄ ▀▄ ▄  ▄▀█▄▄▄█ █▄▄▄█ █\n█▄▄▄▄▄▄▄█ █▄▀▄▀▄▀ ▀▄▀ █▄█ █▄█▄▀▄▀ █▄█▄█▄▄▄▄▄▄▄█\n█ ▄▀▄█▀▄ ▀▄▀▀ ▀▀ █▀ ▄▄  ▄ ▄▄▄ ██ ██▄▄██▄▄ █  ██\n█▄ ▄▀  ▄▀▀  ▄█ ▄ █  ▄▀▄█▀ ██▄ ▄█▄ ▀█▀▄▄ ▄▀▄▄▀ █\n█ ▀▄ ▀▄▄▀▀▄   ▄ ▄▀  ▀ █▄▀▄ ▄ ▄▄▄ ▄▄▀ █▀██  ▀▀▀█\n█ ▄█ ▀█▄▀██ ██▄ ███▀█▄▀▄█ ██ ▄▄█▄ ▄▄ ▄█▀ █▄▄███\n█ ▀▀█▀▄▄█ █▄ ▀ ▄ ▄  █ ▄▄ ▀█  █▄██ ▄█▀█▄  ▀▀  ▄█\n█▀▄▀▄ █▄ ▄██▀▄ ▀▄▀  ▀█ ▀  █   ▄██ ▀▄▀█▄█▀  ▄▄▄█\n█▄█▀  ▄▄▄   █▀ ▀▄█▀ █ ▄▄▄ ▄▄  ▀▄▄████ ▄▄▄ ▄████\n█▀█▀▀ █▄█  ▄▄▄▄█▀▄██▄ █▄█  ██▀▄█▄ ███ █▄█ ▀██ █\n██▀▄▄▄▄▄ ▄▀▄ ▄▄▄█▀  █  ▄▄▄██▀ ▀█▄▄█▀    ▄ █▀▄██\n█▄▄▄▄▀▀▄▀▀▀ ▀▄ ▀  █ ▀███▄█▀▄█▀▀█▀▄▄▀██ █▄█ ▄▄██\n█▄▄ ▄▀▀▄▀█   █▀ ▄█▄  █▄▀ ▄▄▀ █ ██ ▄██ █▄█▄ █  █\n███▀ █ ▄▄ ▀█▄▀▀▄▀ ▀█████▄▄  ▀▄█▄ ▄ ▀▀ ▄▄  █▄ ▄█\n██ ▀██▄▄█ ▄▄▄ █▀ █▄ █▄▄▄  ▄▄ ▄▄▄▄▀▀▄▄▄▀▀▄▄ ██▀█\n██▀▀▀ █▄▄█ █▀▀▄ ▄▄▀▀▄█ █ █▄▀█ ▄▀▄   ▀ ▀▄▀▄▀█  █\n█▄██▄▄█▄▄▀▄██▄▄  ▀█ █ ▄▄▄  ▄ ▄██ ▄█▀█ ▄▄▄ ▀█▀██\n█ ▄▄▄▄▄ █▄▄███▄▄  ▄ █ █▄█ ▀▄▄▀▄▄██▀██ █▄█ █▄▄▀█\n█ █   █ █▀█▀█▄▄▄██   ▄▄▄  █ ██▀▄▀▄▄█▀     ▄▄▄ █\n█ █▄▄▄█ █▀▀█▄ ▀█▀▀▀▄▄▀▀▀█ ▀█ ▄ █▀ ▄▄█  █ ▄▀████\n█▄▄▄▄▄▄▄█▄█▄█▄▄█▄██▄▄██▄▄▄██▄▄██▄█▄▄▄▄█▄█▄██▄██\n","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2144.11","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Session Unpaired","service":"user-service","session":"bot","type":"session"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"bot","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2144.11","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"bot","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"code":"1@ITGNLkePRYtwoCsnpTSKTNOoj8WiB5qx/LBHA9bhNrjf3LJyhh73wPjoFYy0GuLqesPzMbkGNiZmPg==,g3u6tc/eYLXG5YcWznNZYq58ObomsSuiGU/gblqfFCc=,c26Mh1lW5et4anHFwtquRg==","level":"info","message":"Waiting for QRCode Scan (Attempt 1)...:\n▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄\n█ ▄▄▄▄▄ ██▄█  ███▄▀▄█▄▀█▀▀█ █ █▄▀█ █▀▄█ ▄▄▄▄▄ █\n█ █   █ █▀▀▄█ ▀▀▀▀ ▀▄▄▄███ ▄▄ █▀▄  █ ▀█ █   █ █\n█ █▄▄▄█ █▄▄▄▀ ▄▄▀▀▀ ▄ ▄▄▄ ▄▀▀█▄  █ ▄▄▄█ █▄▄▄█ █\n█▄▄▄▄▄▄▄█▄▀▄▀ ▀▄█▄▀▄█ █▄█ █▄▀ █▄▀▄█▄▀ █▄▄▄▄▄▄▄█\n█▄ ▀█▀ ▄▄██▄▀▀ █▀ ▀▄▄▄▄▄ ▄▀  ▀  ▄▀ ▀ ▀▀▀█▄ █▀▀█\n█  █ ▀█▄▄ ▀▄█▄█ ▀▄▄▄▀▄▀█▀▄▀▄ █▀▄▀ █▀▀█▄█▄▀▄  ██\n█ ██▀▀▀▄▄█▄▄█▀█▄▀█▀ █▄ ▀▄ ▀█▀ ▀▀ ▄▀▄█▀███▄▀▀ ▀█\n█▄▄▄ █▀▄▄▀▀▀ ▄ ▀▀▀  ▀  ▀▄ █▄█▀█▀▀█   ▀█▄▀▀▀ ▀██\n█ █▀▀▀ ▄▀█▄█▄▄ █▀▄▄▄██▄ ▄█▀████▀█▀ █▀▀ ███▀▄▄██\n█  ▄ ▄█▄▄ █ ▄▀▀█ █ ▀██ ▄▀▄▄▄▄██▀ ▀█▄█▀▀▀  █ █▄█\n█  ▀█ ▄▄▄ ▀▀█▄▄█   ▄█ ▄▄▄ ▀ ▀▀▀▀ ▀▀ █ ▄▄▄ ▀▀███\n█▀  ▀ █▄█ ▄▄ ██▀██  ▀ █▄█ ▀ ▄▄▀▀█ ██▄ █▄█  ▀▄██\n█▄▀▀ ▄ ▄▄ █ █ █  ▄▀▄█ ▄ ▄  ██ ▀ ▀ ▀█▄    ▄ ▄▄▄█\n█ ▄▀▄▄▀▄▀ ▄▄▄ ██▄█▀▀▀▄ █▀  ▄▄█ █   ▀ █▄█  ▀  ▀█\n██  ▀▄ ▄█▀▀▄  ▄▀▀▄▀▄▀▀ ▀▄▀▀█▀█ ▀▄▀▀▄▀▀▄█▀█▀█▀██\n█▀▀▀██▀▄▀█▀██▄▀   █ ▄▀▄█  ███▄▄▀▄▀█▀▄█▀ ▀▄ ▀▀▄█\n██▀▄ ▀▀▄▄▄▀▀▀▄▀█ ▀▀▄ ▄ █▀▀▀ █▀   █▀ █▄ ▀█ ▀  ▄█\n██▀▀▀ █▄▄▄ ▄▀█▀   █ ▀▄▄▀▄▀█▄▀  █ ▄█▀▄▄ █▀█▄▀███\n█▄██▄▄█▄█ █▀ ▀█▄ ▄█ ▄ ▄▄▄ ▀▄▀ ▀ █  █  ▄▄▄ ▀█▄▀█\n█ ▄▄▄▄▄ █ ▀█▀█  ▀▀▄ ▀ █▄█ █▄▄▀▄█▄     █▄█ ▀ ▄██\n█ █   █ ███▄█ ▀▀ ▄▄▄█ ▄▄▄▄▀▄▀▀█ ▄▀ █▄  ▄▄ █▀▀▄█\n█ █▄▄▄█ █▀▀ ▀▄▀ █▄▀▄▀ ▀██  █▀█▄▀██  ▀ ▀█▀ ▀▀▄██\n█▄▄▄▄▄▄▄█▄▄██▄▄██▄▄▄███▄▄▄█▄██▄█▄█▄▄███▄▄▄▄█▄██\n","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2144.11","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Session Unpaired","service":"user-service","session":"bot","type":"session"}
+{"code":"1@VIg4L2juRqFMhg0o/O2bCQy6b8bdvpYC9dlueoZOyEhZdcEuishGVirM/Uu7HzZiq0gZBRjG9trBUA==,g3u6tc/eYLXG5YcWznNZYq58ObomsSuiGU/gblqfFCc=,c26Mh1lW5et4anHFwtquRg==","level":"info","message":"Waiting for QRCode Scan (Attempt 2)...:\n▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄\n█ ▄▄▄▄▄ █▀ █▄█ ▄▀█ ▄▄██▄ ▀ ██ ▄▄█▄▄█▀▄█ ▄▄▄▄▄ █\n█ █   █ █▀█▄▄  ▄▀▀▄ ▄▄ ▀     ▄█▀▄▄▄█ ▀█ █   █ █\n█ █▄▄▄█ █▀ ▄▀█▄█▀█▀▀▄ ▄▄▄ ▄▀██▄  █▄▄▄▄█ █▄▄▄█ █\n█▄▄▄▄▄▄▄█▄▀▄▀▄▀▄▀▄▀▄█ █▄█ █ ▀ ▀ █ █ ▀ █▄▄▄▄▄▄▄█\n█▄  ▄▄▀▄ ▄▄▀ █ ▀█▄▀▄▄▄▄▄ ▄▀▄██▀ ▄██▄█▀ █ ▀ █▄██\n█▄▄█ █ ▄ ▀█  ▀█ █▄ █▀▄██▀▄▀███ █▀  ▀ █▄▄ ▀▄ ▄▀█\n█▄ ██▀▀▄ ▀▄▄▄█▄█▀▄  ▄█▄ █  ▄█▀ ▀▀███▄▀▄▄▀█▄█ ▀█\n█▀▄▀█▄▀▄ █▄ ▀█ █▀█   ▄▄█ ▄▀ ▀▀▀▀▀▀▄  ▀█▄██  ▀██\n█▀██▄ ▀▄▀█ ▄▀▀ ██▄▄▄▄▀  █▄ ▄██▀▀█▀▀▄▀▀ ███▀█▀██\n█▄ ▀▄█ ▄█▀█▄▄██▀▄▄  ▄▄██ ▄▄▄▀█▄▀▀▀▀▄█ ▀▀█▀▄ ▄██\n█ ▄ ▄ ▄▄▄ ▄█ ▄ ██▄ ▄█ ▄▄▄ ▀▄██▀▀ ██▄█ ▄▄▄ ▀▀███\n█▀▄█▄ █▄█ █ █ █▀▀▀  ▀ █▄█ █ ▄ █▀█ ▀█▄ █▄█ ▄▀ ██\n█ ▀▄▄ ▄▄  ▄▀▄ ▄▀▄█ ▄▀ ▄ ▄  █▀█▀ ▄▀▄▄█   ▄▄ █▄██\n██▀█▄█▄▄ █▄ ▄ █▀ ▀  ▀▀▄▀▀▀▀▀▀  ▄ █▄▄ ▀▄▀▄▄▀  ██\n█ █ ▄▄▄▄▄███ ▀▄▀▄▄▀▄▀▀▄▀▀ ▀███ ▀▄▀█▄▀█▄▀█▄▀▀▀██\n██▄█▄▀ ▄█▄  ▀  ▀  ▄ █ ▄▀▀  ▄▀▀██▀ ▀▄██▄█  ▀ ▄▀█\n█▀ ▀ █ ▄ █ ▄▀▄▀▀▄█▀▄▄ ▀▀▀▀ █▀█  ▀█▄▄█▄ █▀▄▀ ▀▀█\n██▀▀▀ █▄ █▄▄▀██ ▄  ▄▀  ▀▀▀█▄█▀▀▄▀▄ ▀ ▄ ███▄▀███\n█▄██▄▄█▄█▀█▀ ▀▄███▄ █ ▄▄▄  ██▀  ▄▀▄▄█ ▄▄▄  ██▄█\n█ ▄▄▄▄▄ █▄█▀▄▄ ▄  ▄ ▀ █▄█ █  ▀▄▀   ▄█ █▄█ █ ▄▀█\n█ █   █ █ ▄▀█ ▀▀▄▄▄▄█  ▄▄▄▀███▄▀ ██▄▄     ▄▀▀██\n█ █▄▄▄█ █ █▄ ▄ ▀▀██▀▄█▀ █▀ █▄▄▄▀███▀   █▀▀ ▀█▄█\n█▄▄▄▄▄▄▄█▄█▄▄████▄▄▄▄█▄█▄▄█▄██▄█▄█▄▄███▄▄█▄█▄██\n","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"bot","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2144.11","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"bot","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2144.11","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"bot","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2144.11","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"bot","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2144.11","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"bot","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2144.11","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"bot","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2144.11","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"bot","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2144.11","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"bot","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2144.11","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"bot","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2144.11","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"code":"1@wQzOt6h7z8CHf37STFhVMLBWtZDlptYjQV7T2w/2VH9NCVhthPTkJTFXnjMhXUQrlaGH9httzc3c9A==,2WACGM1pUpO/oG08CxdLB1Z+T3dVRkKfeP7MBT3HKD8=,+LNFaDR/J6tnW6moLowNLA==","level":"info","message":"Waiting for QRCode Scan (Attempt 1)...:\n▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄\n█ ▄▄▄▄▄ █▀█    ▄█▀███▀█▄ ▀█▀█▄▄▄▀███▀▄█ ▄▄▄▄▄ █\n█ █   █ █▀ ▄▄█ ▄▀▄▀ ▀█ ▀█▄ ▀▀▄▀██▄▄█ ▀█ █   █ █\n█ █▄▄▄█ █▀  ▀▀▀███▀█▄ ▄▄▄ ▄█ █  █  ▄▄▄█ █▄▄▄█ █\n█▄▄▄▄▄▄▄█▄▀▄▀▄▀ ▀▄▀▄█ █▄█ ▀ █ ▀▄█▄█▄▀▄█▄▄▄▄▄▄▄█\n█▄ ▄▄ █▄ ▄ ▀█▀▄█▄▄▄  ▄▄▄ ▄▄▄▀▀▀ ▄▀▄█  ▄█ ▀ █ ██\n██▀█▄▀▀▄ ▄█  ▄█▄▄▀▄█ █▄██   ▄█ ▀▀▄▄█▄▀   ▄▄  ▀█\n█▀▄▀▄▄ ▄▄▄█▀▄▄▀▀▄▄▄▄▀█▄ ██ ████  █▀▄▀▀▄██▀▄▀ ▀█\n██▄▀██▄▄ ██   ▄ ▄▀██▀█ █▄▄███▀▄▀▀██▄ █▄ █▀  ▀██\n█▄▄██▄▀▄▄█▄▄  ▄█▄█▀▄▀█   ▄▀▄ █▀ ▄█▄▄  ▀██▀ █▀▀█\n██▀▄▄▀▀▄█▀█▀▀▄▀▄█ ██▀█▄██ ▄█▀▀▄▀ ▀ ▄ ▀██▀█▄ ▄██\n█▀▀   ▄▄▄ ▄█▄▄▄▀▄▄▄ ▄ ▄▄▄ ▀▄▀▀ ▀█▀ █▀ ▄▄▄ █████\n█▄█ ▀ █▄█ ▀▄██▄▄ ▄▄▄█ █▄█  ███▀▀▀▀▀ █ █▄█ ▀▀ ██\n█▄▄█▄▄ ▄▄  ▀▄ ▄█▄▄ ▄▄ ▄▄  ▀▄█▀▀  ▀▄█ ▄ ▄▄▄▀▄█▄█\n█▀▄ █ ▄▄▀█▄▀▄ █▄█▀ ▀▀█▄   ▀█▀▀  ▄█▀▀ ▀ ▀▀▄█  ██\n██▀▄▄▀▄▄▄ ██▄▀ ▀█▄▄▄ ▀▀█▄▀███▀▀ ▄█▄█▀▀▀▀▀▄ █▀▀█\n█▀▀▀ █▀▄▄▄ █▄▀▀█▀█▄ ▀▀ █▀ ▄ ▄ ▄▄ ▄▄██▄▄█ ▀ ▀▀▀█\n█▄ ██▀ ▄ ▀█▀▀▄▀▀▄▄▄▄█▀██▄███ ▀  ▄▀▄▄█ ██▄█▄▀▀▀█\n██▀▀▀ █▄▀▄▄▀▀█▄█▄▄█▀▀▄▀▄▀ ▄▄▀█▀▀██ █▀▀ █▀█▀▀███\n█▄██▄▄█▄▄ ▀▀▀▀ ▀██  ▄ ▄▄▄  ▄█▀▀▀▄██▄█ ▄▄▄   █ █\n█ ▄▄▄▄▄ █▄▀▄██ ▄██▄█▀ █▄█ █▀▄▄▄▄▄██   █▄█ █  ▀█\n█ █   █ █ ▀▀█ ▀▀▀▄  █ ▄▄▄▄ ███▀▀▄███▀▄▄    ▀▀██\n█ █▄▄▄█ █ █  ▄▄██▄█▀▄ ▄█▄▀█▀ ▀▄ ▄  ▀  ▀█▀▀ ▀█▄█\n█▄▄▄▄▄▄▄█▄▄▄▄█▄███▄▄▄█▄█▄▄██████▄█▄█▄▄█▄███▄▄██\n","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Session Unpaired","service":"user-service","session":"bot","type":"session"}
+{"code":"1@nExOAAwxGMeZvXoRPjei0tXle79kU4lbEP+ePxtNSCyl80p9z3sUQsaLZd+PEBD8Uu5PU+pYzWVVyg==,2WACGM1pUpO/oG08CxdLB1Z+T3dVRkKfeP7MBT3HKD8=,+LNFaDR/J6tnW6moLowNLA==","level":"info","message":"Waiting for QRCode Scan (Attempt 2)...:\n▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄\n█ ▄▄▄▄▄ █▀ ▀▄  █▄▄█▀█ ▄▀ █  ▀▄  ▄ ▄█▀▄█ ▄▄▄▄▄ █\n█ █   █ █▄ ▀▀▄▄█▄▀▄▄▀█▀  ▄▄▀ █▄▀▀▄██ ▀█ █   █ █\n█ █▄▄▄█ █ ▄ █▄█ ██  ▀ ▄▄▄ ▀ ▀█ ▄ █▀▄▄▄█ █▄▄▄█ █\n█▄▄▄▄▄▄▄█ ▀▄█ ▀ █ █ ▀ █▄█ ▀▄█▄▀ ▀ ▀ █ █▄▄▄▄▄▄▄█\n█  ▀ ▀█▄ ██▄ █ ███▀▄▀▄  ▄ ██ ▄███▀█▄█▄█▄▄ █  ██\n█▄█▀▀█ ▄█▄▄ ██  █▀█▀█ ▄██▄▄▄██ ▄█ █▄██▄▄ █▄▄▀▄█\n██▄▄▀▀█▄█▄█▀▄▄ ▄▄▀  ▀▄▄██▀ ▄▄ ▀▄ ▄ ▀██▄▄▄▄▄█ ▀█\n█▀▀█▀▀▄▄  ▀██   ▄▄ ▀█▄▀▄▀▄█▀▄▄███▀ ▀█▀▄  ▄█▄█▀█\n████▄ █▄█ ▀▄█ ▀ ██▀ ▀▀▀ ▀ ▄▀▄█▄▄▄ █▄ ▄█  █ ▀▀▄█\n█▄▀ ▀  ▄▄▄█ █▀ ▄▄█ ▄▀▄▀▀▀▄▄▄ ▄ █  ▀▀▄▀██▀▀ ▄▄▄█\n█▀█▀▄ ▄▄▄ ▄▀▄▀▀▀▄▄    ▄▄▄ █▄  ██▀▀▀▄▄ ▄▄▄  ▀▀▀█\n█▀██▀ █▄█ ███▀▀▀▀▀▄   █▄█ ▀  ▀▀█ ▄▄▄█ █▄█ ▀▄█ █\n█▄ ▄█ ▄▄  █▀ ▄▄▄█▀▄   ▄▄▄▄ █▄▄█▄▄▄▄ ▄  ▄▄ █ ███\n█▄▀▄ ▄█▄▀▄▄ ▀▄█ ▄ ▄▀▀▄█▀▀███▀▀▄█ ▄▀▀█ ▄▀ █ ▄▄██\n█  █▀ ▄▄▀  ▀ ▄█▄ ▄ ▄▄▄ ██   ▄▀▀▄▀ ███▄█ ▄▄ ▀▄▄█\n█ ▄▀▄▀▄▄█▀ ▄▄█▀▄█  ▄▀ █▄█▄▄█▀█▄ ▄▀▀▄   ▄▄▀▄█▄ █\n█▄▄ █ ▄▄██ ▄▄ █▀██▀ ▀ ▄ ▀▀▄▄▀▄▄▄ █ ▄ ▄▀██▄ ▄▄▀█\n██▀▀▀ █▄ █▄█▀▀  █▄█▄ █ ▄▄█▀▀▀█▀█ ▀ ▄█▀█  █▀█  █\n█▄██▄▄█▄▄▀██▄▄ ▄█  ▄█ ▄▄▄  █▄▄██▄▄▄▀▀ ▄▄▄  ▄▀██\n█ ▄▄▄▄▄ █▄   ▀▄▄▀█▀▀█ █▄█ ▀▀██▀▄▄█ ██ █▄█ █▄ ▀█\n█ █   █ █▀▀▄█▄▄▄ ▄ ▄ ▄▄▄▄▄█ ▄█▀█▀ ██▀  ▄▄ ▀▄█ █\n█ █▄▄▄█ █▀▀ ▄ ▀█▄▀▄▄ █▀  ██▀ ▄▀▄▄  █▄▄▀█▄ ▄████\n█▄▄▄▄▄▄▄█▄▄▄██▄██▄█▄▄█▄██▄██▄▄▄█▄██▄█▄▄▄█▄▄▄▄██\n","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"bot","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2144.11","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"code":"1@p64AGq2KKO8U56LerSwnVPwQ8eGLDk9jLMPvSp9dH1213jRvtO/TNGGLB+WJtN71is38L5o670eu8A==,pL/Xq+QcquYH1F9YYTspa9jDakP+QVZAQYE5pIaraiE=,woAQ3KvQfqa35foXEm8YfA==","level":"info","message":"Waiting for QRCode Scan (Attempt 1)...:\n▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄\n█ ▄▄▄▄▄ ██ ▀▀▀██ ▄▀▄█ ▀█▀▀  ▄▄█ ▀█ █▀▄█ ▄▄▄▄▄ █\n█ █   █ █▀  ██▄ ▀▄▀ ▄▀▄██▀ ▀ ▀▄ ▀▀ █ ▀█ █   █ █\n█ █▄▄▄█ █▄▄▄▀▀▄  ▀█ ▄ ▄▄▄ ▀▀█▀▄▄█ ▄▄▄▄█ █▄▄▄█ █\n█▄▄▄▄▄▄▄█▄▀ ▀▄█▄█▄▀ ▀ █▄█ █ ▀ ▀▄█▄█▄█ █▄▄▄▄▄▄▄█\n█  ▀▀█ ▄▄█▀██  ▀  ▄▄     ▄ ▀▀█▀  ▀   ▀▀▀▀▄ █▀██\n█ ▀▄█▀▀▄  █ ▄▀█▄▀██▄ ▄ ▄▀ ▀▄ ██ ▄▀▀█  █▀▄ ▄ ███\n█ █    ▄▄▄█ ▀▀█▄▀█▄▄█▀▀▀▀ ▀▄▀▄▀ ▀▄▄██▀▀█ ▄▀▀  █\n█▀▀█  █▄▄▄▀▄ ▄▀ ██▄▄▀▀ ▀▄▄   ▀▀▀█▄█ █▄ █▄▀█▀▀▀█\n███ ▄ █▄█▄▄▀█ ▄▀ █ ▄ ▄▀▄█▀▀██▀▀ ▄█▀▄▀▀▄▄▀▀ █▀▀█\n█▀  ▄▄█▄ ▀▄▀█▄██▄  █ ▄ ▄▀ ▄▄▀▄▄█ ▀█▀ ▄██ ▀█ █▄█\n█▄▀ █ ▄▄▄ █▄▀ ▀█      ▄▄▄ ▀▀▀▀ ▀▀▀▀▀█ ▄▄▄ ▀▀█▀█\n█▀ ▄▄ █▄█ ▄█▀▀▄▀██▀ █ █▄█ █▀ ▀▄▄▀▀▀█▄ █▄█ ▀ ▄██\n█▀ ▀ ▄▄▄▄▄  █ █▄▀▄█▄▄ ▄▄▄▄▄▄█▄█▀ ▄▀██  ▄ ▄ ▄▄██\n█▄▄▀█▄█▄▄██▀▄  ▀▀▄ ▄▀█▀█▀▀▄▄▄▀▄▀██▄▄▄▄▄█▄█▀  ▀█\n█▄▀▀█▄▄▄ █▀▄▀▀▄▀█▄▄  ▄█▀▄▀ ██▀█ ▄█▀█▀▄█▄ █▄▀▀▀█\n█ ▄▄   ▄▀▄█ ▄  ▄▀█  ▄█▀▀ ▀▄█ █▄█ ▄▀ ▄█▀▄▄█▀  ▄█\n██ ▀ ██▄▄▄▄█▀▄▀█  ▀▄██▄█▄ ▄▀▀▀   █  ██▀█▀▀█  ██\n██▀▀▀ █▄█▀ ▄▀█   ▄███▀▀ ▄▀▄▄▀▄██ ▀█▀▀▀ ▀▀ ▀ ███\n█▄██▄▄█▄█▀█▄█▀  ██▀▄  ▄▄▄ ▀▄█ ▀▀▀ ▀▄  ▄▄▄    ▀█\n█ ▄▄▄▄▄ █ █  ▀   ▄▀▄▀ █▄█ ▄ █▀▄▄▀█▀▀▀ █▄█  ▀ ▀█\n█ █   █ ██▄▀█ ▀▀ ▄▀▄▀▄ ▄  █▄██▀▀▄█ ▄▀▄ ▄   █ ██\n█ █▄▄▄█ █▀▀▄▀▄█ ▀▄█  ▄  ▄▄██▀█▄   ▀▄▀ █▄ ▄▄ ▄██\n█▄▄▄▄▄▄▄█▄██▄███▄█▄▄▄██▄▄▄█▄██▄▄▄█▄██▄▄▄▄███▄██\n","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2144.11","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Session Unpaired","service":"user-service","session":"bot","type":"session"}
+{"code":"1@WLeGoBLjtJsw/O/fVY4f8cKegeubUISeLlzXIsZPAqQBImfrYNxJN6bFD4mi3eS8SDWZFr6eVBRYvQ==,pL/Xq+QcquYH1F9YYTspa9jDakP+QVZAQYE5pIaraiE=,woAQ3KvQfqa35foXEm8YfA==","level":"info","message":"Waiting for QRCode Scan (Attempt 2)...:\n▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄\n█ ▄▄▄▄▄ █  ▄█▄█▀▀█  ▀▄ ▄ ▀█ ▄▄▄▄█ ▀█▀▄█ ▄▄▄▄▄ █\n█ █   █ █ ▄▀▀█ ▄█▀▄▄▄█ ▄▄▄ █▄ ▀█▀█▄█ ▀█ █   █ █\n█ █▄▄▄█ █▀ ▀  ▀▄▄██ ▀ ▄▄▄ ▄▄▄▀▄▄ ██▄▄▄█ █▄▄▄█ █\n█▄▄▄▄▄▄▄█▄█ ▀ █▄█ █▄█ █▄█ █ █▄▀▄▀ █ ▀▄█▄▄▄▄▄▄▄█\n█  ▀▀▄ ▄▀█▄▀█▄█ ▀▄▄▄▀ ▄▄ ▄▄▀ █▀▀█ ▀▄  █▀▄█ ▄  █\n██ ▀ ▀▀▄ ▄▄▀▀██ █ ▀█ ▄▄▀▄█ █▄▀▀█▄▀█ ▄▄█▀▀▄▀█ ▀█\n█ ▀▀▀▀█▄▀▄▄▀█▀▀ ▀█▀▄▀█ ▀▄▄█  █  █ █▄▄▀█▀▀█ ██▄█\n█  ▄▀▄▀▄▄▀ ▄ ▀▀▄▀▀▀▀▀▄▄ ██▄▄  ▄▄█ ▀█ ▀▄▀▄▄▄█▀██\n█▄▀███▄▄▀▀▀▄▀█▀▄▀█ ▄▄▀▄ ▄▀▄ ▄█  █▄▄█▀▀▄▀▄▀▀█▄ █\n█▀▄▄█  ▄█▄ ▄ █▄▀ ▄▀█▀██ ████▄▀ ▀ ▀▀██ ▄▄▄█▀█▄██\n█ █▄▄ ▄▄▄ ▀ ███▄ █▄▄█ ▄▄▄ ▄  █ ▀▄  ██ ▄▄▄ ▀▀▄ █\n█ █ █ █▄█ ▄█▄ ▄▀ ▄▄██ █▄█ ██▄ ▀▀█▀█ ▀ █▄█ ██▄▀█\n█▀▀██▄ ▄▄ ▀▄▄ ▀  █▄▄█ ▄▄▄▄█ ▄▀  █ ▀█▄ ▄  ▄▀▄▀ █\n█▄▄▀▀  ▄  ▀▄▀██▀███▄▀▀█▄▄▄▄  ▀▀█▄▀ ███▄▀ ▄▄█ ██\n███ ▄ ▀▄▀ █▄  ▄▄▄▄▄▄█▀▄▀▄▄█ ▄▀█ ▀  █▀█▄▄▀▄ ▀▄▄█\n█▀▀ ▀ █▄▀▄ ▀ ▄▀█▀▀▄██▄▀█▄▄█▄▄█ ▄█▀█ ▀  ▀▄▄█▄ ██\n█  ▄▄▄ ▄ ▄ ▀▀▄▄▄▀▄▀▄ ▄ ▀▄ █ ▄█ ▀█▄█▄██▄▄ ██▀▄██\n██▀▀▀ █▄▄█ ▄▄ ▄▀▄▀▄▄▀███▄█▄██▀  ▀ ▀█ ▀ ▀██▄████\n█▄██▄▄█▄█▀█ ▀ ▀▄ █▀▄█ ▄▄▄ █ ▄▀ ▀█▄ █▀ ▄▄▄ ▀▄▄▀█\n█ ▄▄▄▄▄ █▀ ▄▄▄ ▄█ ▄▀▀ █▄█ ▄▄▀▄████▀▄█ █▄█ █▄▄▀█\n█ █   █ █▄█ █ ▄▄▀▄▀▄▄  ▄▄▄█ ▄█  █▄▀█ ▄▄ ▄▄▀▄▄ █\n█ █▄▄▄█ █▀  █▀ ██ ▄▀██ ▄ ▀███▀ █▀▀▄▀██▄▄▀▄ ██▄█\n█▄▄▄▄▄▄▄█▄▄█▄▄█▄█▄▄▄█▄██▄▄▄█▄█▄▄█▄███▄▄██████▄█\n","service":"user-service","session":"bot","type":"client"}
+{"code":"1@kZmHwmdiJsyfYVYWiUVopSFNHBm/m4xtU3icm8gZd8fR+vlwZRnMI4XPBXgDNyMENjZBceQcL/L5/Q==,pL/Xq+QcquYH1F9YYTspa9jDakP+QVZAQYE5pIaraiE=,woAQ3KvQfqa35foXEm8YfA==","level":"info","message":"Waiting for QRCode Scan (Attempt 3)...:\n▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄\n█ ▄▄▄▄▄ █▀▄ ▀▀▄▀█  ▄▄ ▄▀▄█▄ ▀▄▀   ██▀▄█ ▄▄▄▄▄ █\n█ █   █ █▄▄▀ ▄█▄▄█▄▄▄█▀ ▄ ▄██▄▀▄████ ▀█ █   █ █\n█ █▄▄▄█ █  ▀█  ▄ ▀█▄▀ ▄▄▄ ▄▄ ▀▄  █▀▄▄▄█ █▄▄▄█ █\n█▄▄▄▄▄▄▄█ █▄█▄█▄▀▄█▄█ █▄█ ▀▄█▄█ █ ▀▄▀▄█▄▄▄▄▄▄▄█\n█▄▄█▄▀▀▄ █▄▄▄▀▄███▀ ▀ ▄▄▄ ▄▄█▄██ ▀▄▄▄██▄  █ ▄██\n█  ▄▀▄▀▄▄█  ▄█ ▄▄██ █▀▄▄▀▄█ ▄▄██ ▄▄█ █▀█▀ ▄▄█▄█\n█▀▀▀▀▀ ▄▄▄██ ▄▄ █▀▄▄▄▀▄▄   ▄▄ ▄▄ ▄▀▀ █ ██  ▀▀▀█\n█ ██▄█▀▄▀██  ██▄█▀▀ ▄██▄▀   ▀ ▄▀▀▄▄█   █▀▄▄████\n█▀▄█ ▄▀▄ ▀  ▀ ▀▄██  ▄   ▄▄▄▀▄▀▄▄▀ ▄█ ▄█▀▄█▀▀ ▄█\n█▄█▀▄█▀▄▀█▄ █▀▀ ▀▄▀█▀▄█▀▄▄███  ▀▀▀ ▄  ▄███ ▄▄▄█\n█▀█▄▀ ▄▄▄ ▀█ ▀ ▀█▄▀ ▄ ▄▄▄ ██▄▄████▄▄  ▄▄▄ ▄▀███\n█▄▄█▀ █▄█ ▄▀ ▄▀▄▄█▀▄  █▄█ ▄ ▀▀ ▄  ▄█▄ █▄█  ▄█▄█\n██▀██ ▄▄  ▀▄ ▄▄▄▄    ▄▄   █▄▄ █▄▄ █▀ ▄ ▄▄ █ ▄██\n████▄▀▀▄█▀▄ ▀▄▄█▄▀█ ▀▄▄ ██  ▀█▀█  ▀▀▀▀ ▀▀ ▄▄▄██\n██ ▄▀▀ ▄▄▄█ ▀▄█ ██▄▄█▀ ▀▄▀█  ▀█▄▀ ▄█▀ ▄▀█▄▄▀ ▄█\n█▀▀  ▀▀▄▄ ▀█▄▀▀▄▄▄█▄██▀▄███▀▀█▀▀█▄▄▄▀▀▄ █ █▄▀▄█\n█▄  █▄█▄▄█▀█▄ █▀██▄ ▀▀  ▀▄██▄ ▄▄ ▀▄█ ▀█▀▄▄▀█▄▀█\n██▀▀▀ █▄▄▄▄█▀▀▄ █▄▄▄ █▄ ██ ▀██▄▀█▄  █▀█▄▄ ▀▄  █\n█▄██▄▄█▄▄ █ ▀█▄ █  ▄  ▄▄▄  ▄ ▄▄█  ▄ █ ▄▄▄ █▄▀▀█\n█ ▄▄▄▄▄ █▄ █▄ ▄▄  ▄ █ █▄█ ▄▄▄ █▄▀█ ▄  █▄█ ██▀██\n█ █   █ █▀▀▀█▄▄▄█▄▀ ▄ ▄▄▄ ▄▀██▀▄█▄██  ▄   ▀▀█▀█\n█ █▄▄▄█ █▀█ ▄ ▀ ▄  ▀█▄█▄▀ ▄▄▄  ▄▀ ▄ ▄▄▀█▄ ▀▄███\n█▄▄▄▄▄▄▄█▄▄█▄▄▄█▄██▄▄████▄█▄▄▄█▄▄██▄▄▄▄█▄█▄█▄██\n","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"bot","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2144.11","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"bot","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2144.11","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"bot","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2144.11","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"bot","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"bot","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2144.11","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"bot","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"bot","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2144.11","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"bot","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2144.11","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"bot","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2144.11","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"bot","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"code":"1@e8l3hrgHsIf2u+IiSDmKCmtv0xuQP6BrSvO0RmeSULDQIf4uF+pMEwQXtf0zGVD5eY84B952e/hlEw==,WNoJq7/9auKZ9Qp8yBrk45ox2dzREBIhrrowrm42/hs=,Thk/LBHNPemI36JmigFs5w==","level":"info","message":"Waiting for QRCode Scan (Attempt 1)...:\n▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄\n█ ▄▄▄▄▄ █▀▀▄███ ▄▄▀ ▄▄▄▀▄█▄ ▄▄▄▄ ▄██▀▄█ ▄▄▄▄▄ █\n█ █   █ █▄▀██ ▀█▄ ▄▄█▄▀ ▄▄▄ ██ █▄▄██ ▀█ █   █ █\n█ █▄▄▄█ █ ▄ █ █▀██ ▀▀ ▄▄▄ █▄▀▄▀ ███▄▄▄█ █▄▄▄█ █\n█▄▄▄▄▄▄▄█ █ ▀ █ ▀▄▀ ▀ █▄█ ▀▄▀▄▀▄▀ ▀ ▀ █▄▄▄▄▄▄▄█\n█▄▄▀▄██▄▄█ ▀▀▄▄▀███▄▀▄▄▄▄ ▄█  █▄ █▄██▄█▄▄ █ ▄▀█\n█▄▀ ██ ▄▀█  ▀▄▀  ▀▄▄▄ ▄█▀ █ █▀▄▄ █▀█▄ ▄ █▀▄▄▄ █\n█ ▀ ▀▀▄▄█▀▀██ ▄▄▄   ███▄█  █ ▄██ ▄▄  █▄██  ▀  █\n██▀ █▄ ▄▀█▄▀█▄█▀▄▄ ▄▄██▄   ▄█▄ █▄▀▄█ ▀▀ █ ▄▄█▀█\n██▀████▄▄██▄▄█▄▄█▄▄ █▀▄█  █▀ ██▄▀ ██▀██  █▀▀▀▄█\n█▄▀▄▀█ ▄ ▄▀▄▀██ ▄▄  ▀▄▀▀ ▄▄▄█▄▄█▀ ▀▀  ▀▀██ ▄▄▄█\n█ █ ▀ ▄▄▄  ▄▀▀█▀██▄ ▀ ▄▄▄ █▄ ▄▄▄▀█▀▄▀ ▄▄▄ ▄▀█▀█\n█▀▄▄█ █▄█ ▀▄  █ ▄█ ▄█ █▄█ ▄▀█  ██▄▄ ▄ █▄█ █▄█ █\n██▀ ▀▄▄▄ ▄ ▄ ▄  █▀     ▄   ▄█▄███ ▄ ▄▄  ▄ ▄▀▄▄█\n█▀ ██▀ ▄▄▀▄█▀▄█▄▀▀ ▄▀  ▄▄██▀ ▀  ▄▀▀ ▀ █▀▀▀▄▄▄██\n██ ▄   ▄ ▄  ▀█▄▄ ▄   ▄ ▀▄ ▀ ▄█▀█▄▄██▀█▀▄██▄▄  █\n█ ▄▄█ █▄ ▄█▀▄▀  █ ▄█▀▀████ ▀▀▀ ▄▀▀ █  ▀ ▄▀▄█▄▄█\n█▄▄ ▄▄ ▄  ▄█▄ █▀█▄▀▄ ▀▄ █▀██  ▄█ █▄█ ▀█▄█▄▄█▄ █\n██▀▀▀ █▄▄▄█▄▀▀█ █▄█▀ █▀▄▀▄▄  █▄█▀▄▀▀▀▄▀▄▄  █  █\n█▄██▄▄█▄▄▀ █▀█▀ █  ▄▄ ▄▄▄ █▄ ▄██▄ ▄ █ ▄▄▄ ▀ █▀█\n█ ▄▄▄▄▄ █▄█▀█▄▄▄██▄█  █▄█ ▄▄█  ▄█▀▀▄▄ █▄█ ▄▄ ██\n█ █   █ █▀  █▄▄▄ ▄▀ ▄▄▄▄ ▄▄ ▄▀▀██ ▄▄▀      ▀▄▀█\n█ █▄▄▄█ █▀▄▄▄ █  ▀▄ ██▀▀▀ ▄▄▀ ▄▄ ▀▀▀▄▄▀█ ▄█████\n█▄▄▄▄▄▄▄█▄▄█▄█▄█▄▄█▄▄██▄▄▄█▄▄▄█▄▄███▄▄▄▄█▄▄█▄██\n","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2144.11","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Session Unpaired","service":"user-service","session":"bot","type":"session"}
+{"code":"1@+nW1M/JZXxmkUTtfitlWN8RGFzKyxj3cenF8vnrk4TjeSl8i1PN2ACzQUfzWEr3AurscVhT1aO1CZg==,WNoJq7/9auKZ9Qp8yBrk45ox2dzREBIhrrowrm42/hs=,Thk/LBHNPemI36JmigFs5w==","level":"info","message":"Waiting for QRCode Scan (Attempt 2)...:\n▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄\n█ ▄▄▄▄▄ █▀█ ███▄▄▄▀▄▄▄▄▀██  ██▄ ▄▀██▀▄█ ▄▄▄▄▄ █\n█ █   █ █▄ ▀▄▀▄▄▄ █▄█▄▀   ▄ ██ █▄▄██ ▀█ █   █ █\n█ █▄▄▄█ █ █▄▄ ▄▀ ▀  ▀ ▄▄▄ █▄▀▄▀ ███▄▄▄█ █▄▄▄█ █\n█▄▄▄▄▄▄▄█ █▄█▄█ ▀ ▀ █ █▄█ █▄▀▄▀ █▄▀▄▀ █▄▄▄▄▄▄▄█\n█  █▄▀▀▄▄▀█ █▄▄▀███▄    ▄ █▄  █▄ ▀▄▄▄██▄ ▄█  ▀█\n█ █   ▄▄▀ █ ██▄▄ ▀ ▄▄  █▀ ▄▀▄▀▄█ █ ▄▀██▀█ ▄▄█▄█\n█ ▄██ █▄▄▄▄ █▄ ▄▄▀  ██▄██  █ ▄██ ▄▄  █▄██ ▄▀▀▀█\n█▀▄█  ▄▄█ ▄█▄██▀▄▄ ▄▄▄█▄ ▄  █  ▀▄▀▄█ ▀▀ █▄▄██▀█\n█▀ ▄ ▀▄▄▄▀██▄▄▄▄█▄▄ ▀▀ █ ▀▀▀ █▀▄▀▄██▀█▄  ▀  ▀▄█\n██ ▀██▄▄▄▀▀ ██▄ ▄▄  ▀▄▄  ▄▄█████  ▀▀█▄▀▀██ ▄█▄█\n█  ▄▀ ▄▄▄ ▀  █ ▀▄██ ▀ ▄▄▄ █▄ ▄▄▄▀█▀▄▀ ▄▄▄ ▄█▀▀█\n█ ▄█  █▄█  █ ▀█  █ ▄█ █▄█ ▄▀█ ▄▀▀ ▄ ▄ █▄█ ▄█▀▄█\n█▀▀█▄  ▄▄▄█▄ ▄  █▀  █ ▄   ▀▄▀▄▀█  █ ▄▄  ▄ ▄▀███\n█▀▀▀█ ▀▄  █▄▀▄▀▄▀▀ ▀▀▄ ▄▄█▄▀  ▀▀▄▀  █▀█▀▀▀▄▄▄██\n█ ▀▀▀▄ ▄▀█▄▀▄██ ██ ▄ ▄ ▀▄█▀ ▄█▀█▄▄███ █▀▄█▄▄▄ █\n█▀ █ ▀▄▄███▄▄▀   ▀▄█▀▀▀ ██ █▀▀ ▄██▄▀▀ ▄ ▀█▄▄  █\n█▄▀▄█▄▄▄▀█▄ ▄ █▀█▄▀▄ ▀ ▄█▀██  ██ ▀▄█ ▀█▄█▄▄▄█▀█\n██▀▀▀ █▄ █ █▀▀▀ █▄  ▄ ▀▄ ▄▄▀ ▄██ ▄▀▀█▀▀▄▄  █  █\n█▄██▄▄█▄█▀▄██▄▀  ▀ ▄█ ▄▄▄ █▄ ▄██▄ ▄ █ ▄▄▄ █ ███\n█ ▄▄▄▄▄ █▄ ▄▀▄▄▄▀█▄█  █▄█   ▀  ▄███ ▄ █▄█ ▀▄▄██\n█ █   █ █▀█▄█▄▄▄ ▄▀ ▄▄▄▄ ▄▄▀▄█ █▀ ▀▄▀  ▄ ▄▀▀▄ █\n█ █▄▄▄█ █▀▀ ▄ ▀▄ ▀▄▄▀▀██  ██  ██▀▀ ▀▄▄ █▄▄█████\n█▄▄▄▄▄▄▄█▄▄▄▄█▄█▄██▄████▄▄█▄▄▄█▄▄███▄▄▄█▄█▄█▄██\n","service":"user-service","session":"bot","type":"client"}
+{"code":"1@p74YFpNiFNdukbTitSjoiTZWnHqlwVT3wClY14O1vqLAR2zsWKm97EvEyUBjxD7kKQCx3JilwHTE3g==,WNoJq7/9auKZ9Qp8yBrk45ox2dzREBIhrrowrm42/hs=,Thk/LBHNPemI36JmigFs5w==","level":"info","message":"Waiting for QRCode Scan (Attempt 3)...:\n▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄\n█ ▄▄▄▄▄ █▀▀█▄██▄▄▄█▄▄▄▄▀▄█▄▄█   ▄▄██▀▄█ ▄▄▄▄▄ █\n█ █   █ █▄▀▄▄▄▄▄ ▄█▄▀▄▀  ▀▄ ██ █▄▄██ ▀█ █   █ █\n█ █▄▄▄█ █ ▄█ ▀█▀▄█ ▀▀ ▄▄▄ █▄▀▄▀ ███▄▄▄█ █▄▄▄█ █\n█▄▄▄▄▄▄▄█ █▄▀ █ ▀ ▀ █ █▄█ ▀ █▄█ ▀ █ ▀ █▄▄▄▄▄▄▄█\n█  ▀▄██▄ █▄ ▄ ▄▀███▄▄▄ ▄▄  ▄█▄▄▄ ██▄███▄  █ ▄▀█\n█  ██▀█▄▄ ▄▄▄█ ▀ ▀▀█▄ ▄▄▀ █▀█▀▄█ █ █▄ ▄ ▄▀▄▄  █\n███ ▀▄ ▄▄█ ▄██▀ ▄ ▄▄██▄▄█  █ ▄██ ▄▄  █▄██ ▄█▀ █\n█▄█ ▀▀█▄▄▀▀▄▀ █▀ ▀ ▄▄▄█▄▀  ▄█ ▄█ █ █ ▀█ ▀▄▀██▀█\n█ ▀▀▄▄▄▄▄█▀█▄█▄▄█▄▄ █ ▄█▀ █ ██ █▀▄▄▄▀█▄▀▄█ ▀█▄█\n█▀ ▄▄ ▀▄▀  ▀▄ ▀ ▄▄▄▄▀▄▄▀ ▄▄███▄▄ ▀▀▀█▄▀▀██ ▄▄▄█\n█▀  ▄ ▄▄▄  ▄██ ██▄▀▄▀ ▄▄▄ █▄ ▄▄▄▀█▀▄▀ ▄▄▄ ▄█▀▀█\n█ ▄ █ █▄█ █▄███    ▄█ █▄█ ▄▀█▄ █▀▄  ▄ █▄█ ▀▄█▄█\n█▀▄▀▄ ▄▄▄▄▀▄ ▄  █▀  █     ▀█  ██  █▀▄▄  ▄ ▄ █▄█\n█  █▄▄█▄ ▀  ▀▄▀ ▀▀  █  ▄▀█▄  ▀▀ ▄▀▀▀▀▀█▀▀▀▄▄▄██\n█ ██▀▄▄▄█▀▄▄ ▄▀▄█▄▄  ▄ ▀██▀ ▄█▀█▄▄██▀▄▀ █▄▄ ▄▄█\n█▄ ▀▄ ▄▄▀█▄█▀   ▄▀▄█▀▀████▄█▀█▄▄▀█▄█▀   ██▄▄▀▄█\n██▀▀▄██▄ █▄▄▄ █▀█▄▀▄▄▄  █▀▄█▄  ▄ ▀▄█ ▀█▄█▄▄▄▄▀█\n██▀▀▀ █▄ ▄ ▄▀▀▄▀█▄█▀ ▀▀▄ ▄▄ ▀█▄█ █▀ ▀ ▀▄▄  █  █\n█▄██▄▄█▄▄   █▄▄  ▀▄ ▄ ▄▄▄ █▄ ▄██▄ ▄ █ ▄▄▄ █▄███\n█ ▄▄▄▄▄ █▄▀▀██▄▄█▄▄█  █▄█ ▄ ▀▄ ▄██▀ ▀ █▄█ ▄█ ██\n█ █   █ █▀█▄█▄▄▄ ▄▀ ▄▄▄▄ ▄▄ ▄▀ █▀ ▄█  ▄  ▄ ▀█ █\n█ █▄▄▄█ █▀▀▄▄ ▄█ ▀▀█▀▀██▀ █▄  ▄█    ▄▄ ▄  █████\n█▄▄▄▄▄▄▄█▄████▄██▄█▄██▄▄▄▄█▄▄▄█▄▄███▄▄█▄█▄▄█▄██\n","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"bot","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2144.11","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"bot","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2144.11","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"bot","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2144.11","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"bot","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2144.11","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"bot","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2144.11","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"bot","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2144.11","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"bot","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2144.11","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"bot","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2144.11","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"bot","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2144.11","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"bot","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2144.11","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"bot","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2144.11","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"bot","type":"client"}

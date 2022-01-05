@@ -9,7 +9,7 @@ interface contextType {
 const contextType: contextType = {
   user: "nome-do-cliente",
   client_number: "numero-do-cliente",
-  yanak_number_for_problems: "81 9 95555555", //COLOCAR Nº PARA RESOLUÇÃO DE PROBLEMAS
+  yanak_number_for_problems: "81 9 996420167",
   ifood_link:
     "https://www.ifood.com.br/delivery/jaboatao-dos-guararapes-pe/yanak-sushi-piedade/96a2d480-f83c-4308-b2c4-94a27e694ddc",
   chave_pix_CNPJ: `43.917.705/0001-80`,
@@ -18,7 +18,7 @@ const contextType: contextType = {
 const responseObject = [
   // Saudação e Ajuda
   {
-    text: `Olá *${contextType.user}*, eu sou o *Yan* seu *atendente virtual*, e adoro tirar dúvidas. ◕‿◕
+    text: `Olá, eu sou o *Yan* seu *atendente virtual*, e adoro tirar dúvidas. ◕‿◕
     Para pedir acesse:
     ${contextType.ifood_link} 
      
@@ -30,8 +30,6 @@ const responseObject = [
     (Dias e horários de atendimento)
     💳 *PAGAMENTO*
     (Formas de pagamento)
-    🔥 *PROMOÇÃO*
-    (Exibe a promoção do dia)
     ⏱ *TEMPO*
     (Tempo de entrega e retirada)
     👤 *ATENDENTE*
@@ -40,8 +38,6 @@ const responseObject = [
     (Bairros que entregamos)
     🛍 *RETIRADA*
     (Retire na loja)
-    ✖ *PROBLEMA*
-    (Erro ou problema com o pedido)
     ❕ *STATUS*
     (Meu Pedido)
     `,
@@ -55,7 +51,7 @@ const responseObject = [
     (click no link)
     ${contextType.ifood_link}
 
-    Nele contém a descrição de 100% dos nosso produtos disponívei
+    Nele contém a descrição de 100% dos nosso produtos disponíveis
 
     *Bom apetite* 
     e uma *excelente experiência!* 🍣🥢
@@ -85,7 +81,7 @@ const responseObject = [
 
   // Pagamento
   {
-    text: `*${contextType.user}*, se você comprar atráves do ifood:
+    text: `Se você comprar atráves do ifood:
     Pode pagar pelos meios disponíveis no ifood.
 
     Caso seu pedido tenha sido feito diretamente em nossa loja você pode pagar com:
@@ -162,7 +158,7 @@ const responseObject = [
 
   // Retirada
   {
-    text: `🛍 *${contextType.user}*, retire em 📍 *R. São Sebastião, nº 898, Piedade*.
+    text: `🛍 Retire em 📍 *R. São Sebastião, nº 898, Piedade*.
 
     Nosso estabelicimento é uma *dark kitchen*, caso queria retirar seu pedido neste endereço tecle "03" no interfone que vamos te atender.`,
     intent: "retirada",
@@ -171,7 +167,7 @@ const responseObject = [
   //Problema
 
   {
-    text: `*${contextType.user}*, para ser atendido por um humano escolha uma das seguintes formas:\n
+    text: `Para ser atendido por um humano escolha uma das seguintes formas:\n
     1) Ligando para este número.\n
     2) Ligando ou mandando uma mensagem (WhatsApp) para *${contextType.yanak_number_for_problems}*.
     `,
@@ -187,7 +183,7 @@ const responseObject = [
 
   //Que é o Yan
   {
-    text: `${contextType.user}, 🤖 sou uma *inteligência artificial*,
+    text: `🤖 Sou uma *inteligência artificial*,
     quanto mais converso mais fico inteligente 🧠, minha missão é ajudar você para que o Yanak se torne uma franquia de alto padrão em todo território nacional nos próximos anos 🚀 \n
     Além disso acredito que um dia posso dominar o mundo. 🌎\n  ✅ \n
     O que mais você quer saber? ◕‿◕`,
@@ -248,7 +244,7 @@ const responseObject = [
 
   // Agradecimento
   {
-    text: `De nada, ${contextType.user}! Fico feliz em te ajudar ❤`,
+    text: `De nada! Fico feliz em te ajudar ❤`,
     intent: "agradecimento",
   },
 
