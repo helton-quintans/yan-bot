@@ -3,3 +3,5 @@ dist
 *.lock
 model.nlp
 tokens
+json
+combined.log

@@ -56,7 +56,7 @@ const Main = async () => {
     .then(async (client) => {
       try {
         client.onMessage(async (message) => {
-          if (message.isGroupMsg === false) {
+          if (message.isGroupMsg === false && !message.mimetype) {
             const response = await nlpManager.process("pt", message.body);
             switch (response.intent) {
               case "None":
@@ -99,6 +99,8 @@ const Main = async () => {
                 break;
             }
           }
+          // Enviar resposta
+          await client.sendText(message.from, "Não entendo mensagens de midia");
         });
       } catch (error: any) {
         console.error(error);
