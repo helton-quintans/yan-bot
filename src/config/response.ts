@@ -9,9 +9,9 @@ interface contextType {
 const contextType: contextType = {
   user: "nome-do-cliente",
   client_number: "numero-do-cliente",
-  yanak_number_for_problems: "****Colocar número aqui****", //COLOCAR Nº PARA RESOLUÇÃO DE PROBLEMAS
+  yanak_number_for_problems: "81 996420167",
   ifood_link:
-    "https://www.ifood.com.br/delivery/jaboatao-dos-guararapes-pe/yumei-temakeria-piedade/b77ae307-2102-4034-9bf8-137c38676086",
+    "https://www.ifood.com.br/delivery/jaboatao-dos-guararapes-pe/yanak-sushi-piedade/96a2d480-f83c-4308-b2c4-94a27e694ddc",
   chave_pix_CNPJ: `43.917.705/0001-80`,
   chave_pix_tefelefone: `81 9959 - xxxx`,
 };
@@ -148,10 +148,15 @@ const responseObject = [
     📍Pieadade; 
     📍Candeias;
     📍Boa viagem;
-    📍Barra de Jangada; 
     📍Jardim piedade; 
-    📍Prazeres; e  
-    📍Cajueiro seco.`,
+    📍Imbiribeira;
+    📍Prazeres;
+    📍Cajueiro seco,
+    📍Barra de Jangada; 
+    📍Ponte dos carvalhos; 
+    📍Ipsep;
+    📍Ibura;
+    `,
     intent: "bairro",
   },
 
@@ -159,7 +164,7 @@ const responseObject = [
   {
     text: `🛍 *${contextType.user}*, retire em 📍 *R. São Sebastião, nº 898, Piedade*.
 
-    Nosso estabelicimento é uma dark kitchen, caso queria retirar seu pedido neste endereço tecle "03" no interfone que vamos te atender.`,
+    Nosso estabelicimento é uma *dark kitchen*, caso queria retirar seu pedido neste endereço tecle "03" no interfone que vamos te atender.`,
     intent: "retirada",
   },
 
@@ -189,13 +194,13 @@ const responseObject = [
     intent: "apresentacao",
   },
 
-  //Identificação de risada + sugestão de piada.
-  {
-    text: `🤖 Eu entendi que você pode estar rindo, mas ainda não tenho intelecto suficiente para saber o motivo pois sou um robô bebê de 1 aninho 👶\n
-    Mas posso te contar uma piada, se quiser que eu conte digita:\n
-    *Altera* `,
-    intent: "risada",
-  },
+  // //Identificação de risada + sugestão de piada.
+  // {
+  //   text: `🤖 Eu entendi que você pode estar rindo, mas ainda não tenho intelecto suficiente para saber o motivo pois sou um robô bebê de 1 aninho 👶\n
+  //   Mas posso te contar uma piada, se quiser que eu conte digita:\n
+  //   *Altera* `,
+  //   intent: "risada",
+  // },
 
   // //Piadas
   // {
@@ -249,14 +254,15 @@ const responseObject = [
 
   //Bebidas
   {
-    text: `Nossos itens disponíveis, inclusive as bebidas 🥤, estão em nosso cardápio: \n
-      ${contextType.ifood_link} \n
-      no geral, temos:\n
-      Coca-cola zero lata; \n
+    text: `Nossos itens disponíveis, inclusive as bebidas 🥤, estão em nosso cardápio: 
+      ${contextType.ifood_link} 
+      no geral, temos:
+      Coca-cola zero lata; 
       Coca-cola (lata e 1L);
-      Antártica (lata e 1L);\n
-      H2O Limão;\n
-      H2O Limoneto; e\n
+      Antártica (lata e 1L);
+      Schwepps Citrus;
+      H2O Limão;
+      H2O Limoneto; e
       Água tônica.`,
 
     intent: "bebida",
