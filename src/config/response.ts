@@ -34,8 +34,6 @@ const responseObject = [
     (Exibe a promoção do dia)
     ⏱ *TEMPO*
     (Tempo de entrega e retirada)
-    👤 *ATENDENTE*
-    (Falar com atendente)
     📍 *BAIRROS*
     (Bairros que entregamos)
     🛍 *RETIRADA*

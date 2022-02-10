@@ -99,7 +99,7 @@ const Main = async () => {
                 break;
             }
           }
-          // Enviar resposta
+          // Enviar resposta quando não entende o tipo de mensagem
           await client.sendText(message.from, "Não entendo mensagens de midia");
         });
       } catch (error: any) {

@@ -101,8 +101,8 @@ const trainingObject = [
   { text: "retiro", intent: "retirada" },
   
   // Atendente
-  { text: "atendente", intent: "problema_atendente_humano" },
-  { text: "humano", intent: "problema_atendente_humano" },
+  // { text: "atendente", intent: "problema_atendente_humano" },
+  // { text: "humano", intent: "problema_atendente_humano" },
   
   //Bairros de entrega
   { text: "bairro", intent: "bairro" },
@@ -162,7 +162,7 @@ const trainingObject = [
   // { text: "#maisuma", intent: "mais_uma_piada" },
   
   //Problema
-  { text: "problema", intent: "problema_atendente_humano" },
+  // { text: "problema", intent: "problema_atendente_humano" },
 
   /*
   { text: "não gosto", intent: "problema" },
