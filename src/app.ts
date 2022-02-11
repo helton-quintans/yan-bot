@@ -55,7 +55,7 @@ const Main = async () => {
   })
     .then(async (client) => {
       try {
-        client.onMessage(async (message) => {
+        client.onMessage(async (message: any) => {
           if (message.isGroupMsg === false && !message.mimetype) {
             const response = await nlpManager.process("pt", message.body);
             switch (response.intent) {
@@ -97,10 +97,10 @@ const Main = async () => {
                   await client.sendText(message.from, formatedResponse);
                 }
                 break;
+                // Enviar resposta quando não entende o tipo de mensagem
+                await client.sendText(message.from, "Não entendo mensagens de midia");
             }
           }
-          // Enviar resposta quando não entende o tipo de mensagem
-          await client.sendText(message.from, "Não entendo mensagens de midia");
         });
       } catch (error: any) {
         console.error(error);

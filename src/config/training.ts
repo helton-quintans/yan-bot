@@ -88,10 +88,12 @@ const trainingObject = [
   { text: "vale alimentacao", intent: "pagamento" },
 
   
-  // Promoção + #quer ser elite?
+  // Promoção 
   { text: "promocao", intent: "promocao" },
   { text: "promoção do dia", intent: "promocao" },
   { text: "cupom", intent: "promocao" },
+  { text: "promo", intent: "promocao" },
+
   
   // Tempo de entrega e retirada
   { text: "tempo", intent: "tempo_de_entrega_e_retirada" },

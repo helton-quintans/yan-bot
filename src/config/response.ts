@@ -18,7 +18,7 @@ const contextType: contextType = {
 const responseObject = [
   // Saudação e Ajuda
   {
-    text: `Olá *${contextType.user}*, eu sou o *Yan* seu *atendente virtual*, e adoro tirar dúvidas. ◕‿◕
+    text: `Olá, eu sou o *Yan* seu *atendente virtual*, e adoro tirar dúvidas. ◕‿◕
     Para pedir acesse:
     ${contextType.ifood_link} 
      
@@ -30,8 +30,6 @@ const responseObject = [
     (Dias e horários de atendimento)
     💳 *PAGAMENTO*
     (Formas de pagamento)
-    🔥 *PROMOÇÃO*
-    (Exibe a promoção do dia)
     ⏱ *TEMPO*
     (Tempo de entrega e retirada)
     📍 *BAIRROS*
@@ -83,7 +81,7 @@ const responseObject = [
 
   // Pagamento
   {
-    text: `*${contextType.user}*, se você comprar atráves do ifood:
+    text: `Se você comprar atráves do ifood:
     Pode pagar pelos meios disponíveis no ifood.
 
     Caso seu pedido tenha sido feito diretamente em nossa loja você pode pagar com:
@@ -160,7 +158,7 @@ const responseObject = [
 
   // Retirada
   {
-    text: `🛍 *${contextType.user}*, retire em 📍 *R. São Sebastião, nº 898, Piedade*.
+    text: `🛍 Retire em 📍 *R. São Sebastião, nº 898, Piedade*.
 
     Nosso estabelicimento é uma *dark kitchen*, caso queria retirar seu pedido neste endereço tecle "03" no interfone que vamos te atender.`,
     intent: "retirada",
@@ -169,9 +167,7 @@ const responseObject = [
   //Problema
 
   {
-    text: `*${contextType.user}*, para ser atendido por um humano escolha uma das seguintes formas:\n
-    1) Ligando para este número.\n
-    2) Ligando ou mandando uma mensagem (WhatsApp) para *${contextType.yanak_number_for_problems}*.
+    text: `Para relatar ou resolver um problema nos ligue neste número que um de nossos atendentes vai te ajudar
     `,
     intent: "problema_atendente_humano",
   },
@@ -185,7 +181,7 @@ const responseObject = [
 
   //Que é o Yan
   {
-    text: `${contextType.user}, 🤖 sou uma *inteligência artificial*,
+    text: `🤖 Sou uma *inteligência artificial*,
     quanto mais converso mais fico inteligente 🧠, minha missão é ajudar você para que o Yanak se torne uma franquia de alto padrão em todo território nacional nos próximos anos 🚀 \n
     Além disso acredito que um dia posso dominar o mundo. 🌎\n  ✅ \n
     O que mais você quer saber? ◕‿◕`,
