@@ -33,7 +33,7 @@
 <br>
 
 <p align="center">
-  <img src="src/assets/toReadme/dt-money.gif" alt="Página inicial">
+    <img align="right" height="660em" src="src/images/toReadme/yan-capa.png"/>
 </p>
 
 ## Tecnologias
