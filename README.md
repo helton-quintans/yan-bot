@@ -3,7 +3,7 @@
 
  
 
-<p align="center">
+<p>
   <img src="https://img.shields.io/badge/Made%20by-Helton Quintãns e Paulo Rodrigues-33cc95">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/helton-quintans/yan-bot?color=33cc95">
   <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/helton-quintans/yan-bot?color=%2333cc95">
@@ -13,10 +13,10 @@
 </p>
 
 <p align="center">
-    <img height="500em" width="100%" src="src/images/toReadme/yan-capa.png"/>
+    <img height="380em" width="100%" src="src/images/toReadme/yan-capa.png"/>
 </p>
 
-<img align="right" height="660em" src="src/images/toReadme/yanbot.png"/>
+<img align="right" height="460em" src="src/images/toReadme/yanbot.png"/>
 
 ## Tópicos
 
