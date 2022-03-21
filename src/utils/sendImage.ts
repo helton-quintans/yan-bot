@@ -24,7 +24,7 @@ export default async function sendImage(client: Whatsapp, message: any) {
           message.from,
           "C:/Projetos/yan-bot/src/images/sun.png",
           "Sun.png",
-          "Promoção do domingãaao caraaiooo, porra"
+          "Promoção do domingão"
         );
         break;
       case "Tue":
