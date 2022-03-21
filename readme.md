@@ -1,34 +1,35 @@
-<img align="right" height="590em" src="images/toReadme/yanBot.png"/>
+  <img align="right" height="660em" src="src/images/toReadme/yanbot.png"/>
 
 # Yan bot
 
 <p>
-  <img src="https://img.shields.io/badge/Made%20by-Helton-33cc95">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/helton-quintans/aula02-trilha-reactjs?color=33cc95">
-  <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/helton-quintans/aula02-trilha-reactjs?color=%2333cc95">
-  <a href="https://opensource.org/licenses/MIT">
-    <img alt="License" src="https://img.shields.io/badge/license-MIT-33cc95?style=flat-square">
+  <img src="https://img.shields.io/badge/Made%20by-Helton Quintãns e Paulo Rodrigues-33cc95">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/helton-quintans/yan-bot?color=33cc95">
+  <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/helton-quintans/yan-bot?color=%2333cc95">
+  <a href="https://opensource.org/licenses/ISC">
+    <img alt="License" src="https://img.shields.io/badge/license-ISC-33cc95?style=flat-square">
   </a>
 </p>
 
-<img align="right" src="src/assets/logo.svg" width="35%" alt="dt money">
-
 ## Tópicos
 
-[Sobre o dt money](#sobre-o-dt-money)
+[Sobre o Yan Bot](#sobre-o-yan-bot)
 
 [Tecnologias](#tecnologias)
+
+[Funcionalidades](#funcionalidades)
 
 [Instalação e uso](#instalação-e-uso)
 
 [Licença](#licença)
-
 <br>
 
-## Sobre o dt money
+## Sobre o Yan bot
 
-O dt money é uma alternativa simples e eficaz para gerenciar suas finanças, permitindo o cadastro de entradas, saídas e a organização das mesmas em categorias.
-
+- 🧠 O Yan é uma inteligêcia artificial que usa Machine learning e NLP (natural language processing). 
+- 🌎 Ele é poliglota e suporta 40 idiomas nativamente e 104 idiomas através de integração BERT.
+- 👨‍🚀 Nascido com o propósito de entender as intenções dos clientes e oferecer um resposta rápida e eficaz, quato mais voê conversar com Yan mais ele aprende e melhora a experiência do usuário.
+- 🤘 Este projeto conta com ajuda da comunidade open source do Brasil e do mundo.
 <br>
 
 <p align="center">
@@ -39,43 +40,62 @@ O dt money é uma alternativa simples e eficaz para gerenciar suas finanças, pe
 
 Tecnologias e ferramentas utilizadas no desenvolvimento do projeto:
 
-- [React](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
-- [Styled Components](https://styled-components.com/)
-- [MirageJS](https://miragejs.com/)
 - [Axios](https://github.com/axios/axios)
-- [Polished](https://polished.js.org/)
-
+- [Node-nlp](https://www.npmjs.com/package/node-nlp)
+- [Pino](https://www.npmjs.com/package/pino)
+- [Venom-bot](https://orkestral.github.io/venom/index.html)
 <br>
+
+## Funcionalidades
+
+|                                                               |   |
+|---------------------------------------------------------------|---|
+| 🚻 Atumoático QR Refresh                                      | ✔ |
+| 📁 Evia  **texto, imagem, vídeo, áudio e documentos**         | ✔ |
+| 👥 Pega **contatos, chats, grupos, membros do grupo**         | ✔ |
+| 📞 Envia contatos                                             | ✔ |
+| 🆘 Envia Botões                                               | ✔ |
+| 💞 Envia stickers                                             | ✔ |
+| 🤸‍♀️ Envia GIF                                                  | ✔ |
+| 🤹‍ Multiplas sessões                                          | ✔ |
+| ⏩ Acelera messages                                           | ✔ |
+| 📥 Recebe messages                                            | ✔ |
+| 👤 Insere sessão de usuário                                   | ✔ |
+| 📍 Envia localização                                           | ✔ |
+| 🛍 Envia promoção do dia                                       | ✔ |
+|🤳 Envia menssagem via telegram caso não entenda a intenção do usuário | ✔ |
+| **🆙 e muito mais**                                           | ✔ |
+
 
 ## Instalação e uso
 
 ```bash
 # Abra um terminal e copie este repositório com o comando
-git clone https://github.com/helton-quintans/aula02-trilha-reactjs.git
+git clone https://github.com/helton-quintans/yan-bot.git
 # ou use a opção de download.
 
 # Entre na pasta web com
-cd aula02-trilha-reactjs
+cd yan-bot
 
 # Instale as dependências
 yarn install
 
 # Rode a aplicação
-yarn start
+yarn dev
 ```
 
 <br>
 
 ## Licença
 
-<a href="https://opensource.org/licenses/MIT">
-    <img alt="License" src="https://img.shields.io/badge/license-MIT-7cd1a6?style=flat-square">
+<a href="https://opensource.org/licenses/ISC">
+    <img alt="License" src="https://img.shields.io/badge/license-ISC-7cd1a6?style=flat-square">
 </a>
 
 <br>
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](/LICENSE) para mais detalhes.
+Esse projeto está sob a licença ISC. Veja o arquivo [LICENSE](/LICENSE) para mais detalhes.
 
 ---
 
