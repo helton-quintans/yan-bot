@@ -1,8 +1,6 @@
 
 # Yan bot
 
- 
-
 <p>
   <img src="https://img.shields.io/badge/Made%20by-Helton Quintãns e Paulo Rodrigues-33cc95">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/helton-quintans/yan-bot?color=33cc95">
@@ -35,7 +33,7 @@
 
 - 🧠 O Yan é uma inteligêcia artificial que usa Machine learning e NLP (natural language processing). 
 - 🌎 Ele é poliglota e suporta 40 idiomas nativamente e 104 idiomas através de integração BERT.
-- 👨‍🚀 Nascido com o propósito de entender as intenções dos clientes e oferecer um resposta rápida e eficaz, quato mais voê conversar com Yan mais ele aprende e melhora a experiência do usuário.
+- 👨‍🚀 Nascido com o propósito de entender as intenções dos clientes e oferecer um resposta rápida e eficaz, quato mais você conversar com o Yan mais ele aprende e melhora a experiência do usuário.
 - 🤘 Este projeto conta com ajuda da comunidade open source do Brasil e do mundo.
 
 ## Tecnologias
